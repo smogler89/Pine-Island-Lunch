@@ -1,0 +1,24 @@
+{
+  "generated_at": "2026-02-28T03:12:18.917708Z",
+  "district": "pineisland",
+  "menu_type": "lunch",
+  "days_ahead": 28,
+  "schools": [
+    {
+      "slug": "5-12-pi-middle-high-school",
+      "name": "5-12 Grades"
+    },
+    {
+      "slug": "223-1st-ave-se-pine-island-mn-55963",
+      "name": "Cubbies"
+    },
+    {
+      "slug": "zed-cubbies",
+      "name": "Pace/Trails"
+    },
+    {
+      "slug": "pre-k-4-elementary-building",
+      "name": "Pre-K-4 Elementary Building"
+    }
+  ]
+}
