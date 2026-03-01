@@ -58,7 +58,7 @@ jobs:
           <head>
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>School Menu Calendars</title>
+            <title>Pine Island School Menu Calendars</title>
             <style>
               body {
                 font-family: system-ui, -apple-system, sans-serif;
@@ -102,7 +102,7 @@ jobs:
             </style>
           </head>
           <body>
-            <h1>School Menu Calendars</h1>
+            <h1>Pine Island School Menu Calendars</h1>
             <div class="container">
           EOF
 
