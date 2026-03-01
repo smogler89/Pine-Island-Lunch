@@ -12,21 +12,17 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      # 1. Checkout repository
       - name: Checkout
         uses: actions/checkout@v4
 
-      # 2. Setup Python
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
-      # 3. Install dependencies
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      # 4. Generate Lunch Calendars
       - name: Generate Lunch Calendars
         run: |
           python generate_ics.py \
@@ -35,7 +31,6 @@ jobs:
             --days-ahead "${{ vars.NUTRISLICE_DAYS_AHEAD || '28' }}" \
             --output-dir public/lunch
 
-      # 5. Generate Breakfast Calendars
       - name: Generate Breakfast Calendars
         run: |
           python generate_ics.py \
@@ -44,13 +39,13 @@ jobs:
             --days-ahead "${{ vars.NUTRISLICE_DAYS_AHEAD || '28' }}" \
             --output-dir public/breakfast
 
-      # 6. Create Combined Homepage
       - name: Create Combined Homepage
         run: |
           echo "Generating combined homepage..."
+          BASE_URL="webcal://${GITHUB_REPOSITORY}.github.io"
 
-          # Merge breakfast and lunch manifests
-          SCHOOLS=$(jq -s '[.[0].schools, .[1].schools] | add | unique_by(.slug) | .[] | "\(.slug)|\(.name)"' public/lunch/manifest.json public/breakfast/manifest.json)
+          # Merge manifests and clean school names
+          SCHOOLS=$(jq -s -r '[.[0].schools, .[1].schools] | add | unique_by(.slug) | .[] | "\(.slug)\t\(.name)"' public/lunch/manifest.json public/breakfast/manifest.json)
 
           cat << 'EOF' > public/index.html
           <!DOCTYPE html>
@@ -61,19 +56,36 @@ jobs:
             <title>Pine Island School Menu Calendars</title>
             <style>
               body { font-family: system-ui, -apple-system, sans-serif; background: #f3f4f6; margin: 0; padding: 48px 20px; }
-              h1 { text-align: center; margin-bottom: 16px; }
+              h1 { text-align: center; margin-bottom: 16px; font-size: 2rem; }
               p { text-align: center; color: #4b5563; font-size: 1rem; }
               .instructions { max-width: 720px; margin: 16px auto; color: #4b5563; font-size: 0.95rem; }
               .instructions ul { margin: 8px 0 0; padding-left: 20px; }
               .instructions li { margin-bottom: 6px; }
               .container { max-width: 900px; margin: 32px auto 0; display: grid; gap: 20px; }
               .school { background: white; padding: 24px; border-radius: 16px; box-shadow: 0 10px 30px rgba(0,0,0,0.06); }
-              .links { margin-top: 12px; display: flex; gap: 12px; flex-wrap: wrap; }
-              button, a { display: inline-flex; align-items: center; justify-content: center; padding: 10px 18px; border-radius: 999px; font-weight: 600; font-size: 0.9rem; text-decoration: none; cursor: pointer; }
+              .school h2 { margin: 0 0 12px; font-size: 1.25rem; }
+              .row { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 8px; }
+              a, button { flex: 1 1 auto; text-align: center; display: inline-flex; align-items: center; justify-content: center; padding: 10px 18px; border-radius: 999px; font-weight: 600; font-size: 0.9rem; text-decoration: none; cursor: pointer; transition: all 0.2s ease; }
               a { background: #1d4ed8; color: white; }
-              button { background: #e5e7eb; color: #1f2937; border: none; }
+              button { background: #e5e7eb; color: #1f2937; border: none; position: relative; }
               a:hover { background: #1e40af; }
               button:hover { background: #d1d5db; }
+              button.copied::after {
+                content: "Copied!";
+                position: absolute;
+                top: -28px;
+                left: 50%;
+                transform: translateX(-50%);
+                font-size: 0.75rem;
+                padding: 2px 6px;
+                border-radius: 4px;
+                white-space: nowrap;
+                pointer-events: none;
+                background: #10b981; 
+                color: white;
+              }
+              .ics-icon { margin-left: 6px; width: 14px; height: 14px; vertical-align: middle; }
+              @media (max-width: 600px) { .row { flex-direction: column; } }
             </style>
           </head>
           <body>
@@ -93,21 +105,22 @@ jobs:
             <div class="container">
           EOF
 
-          # Append each school dynamically
-          while IFS="|" read -r slug name; do
+          while IFS=$'\t' read -r slug name; do
             cat << EOF >> public/index.html
               <div class="school" data-slug="${slug}" data-name="${name}">
                 <h2>${name}</h2>
-                <div class="links">
-                  <a href="./breakfast/${slug}.ics" target="_blank">🍳 Breakfast ICS</a>
+                <div class="row">
+                  <a href="${BASE_URL}/breakfast/${slug}.ics">🍳 Subscribe Breakfast</a>
+                  <a href="./breakfast/${slug}.ics" target="_blank">Breakfast ICS <img class="ics-icon" src="https://upload.wikimedia.org/wikipedia/commons/3/32/Calendar-icon.svg" alt="ICS"></a>
                   <button data-menu="breakfast">Copy Breakfast ICS</button>
-                  <a href="./lunch/${slug}.ics" target="_blank">🥪 Lunch ICS</a>
+                </div>
+                <div class="row">
+                  <a href="${BASE_URL}/lunch/${slug}.ics">🥪 Subscribe Lunch</a>
+                  <a href="./lunch/${slug}.ics" target="_blank">Lunch ICS <img class="ics-icon" src="https://upload.wikimedia.org/wikipedia/commons/3/32/Calendar-icon.svg" alt="ICS"></a>
                   <button data-menu="lunch">Copy Lunch ICS</button>
-                  <a href="webcal://$(echo "${GITHUB_REPOSITORY}.github.io")/breakfast/${slug}.ics">Subscribe Breakfast</a>
-                  <a href="webcal://$(echo "${GITHUB_REPOSITORY}.github.io")/lunch/${slug}.ics">Subscribe Lunch</a>
                 </div>
               </div>
-          EOF
+EOF
           done <<< "$SCHOOLS"
 
           cat << 'EOF' >> public/index.html
@@ -121,11 +134,10 @@ jobs:
                   const url = `./${menu}/${school}.ics`;
                   try {
                     await navigator.clipboard.writeText(url);
-                    const original = btn.textContent;
-                    btn.textContent = "Copied!";
-                    setTimeout(() => { btn.textContent = original; }, 2000);
+                    btn.classList.add("copied");
+                    setTimeout(() => btn.classList.remove("copied"), 2000);
                   } catch {
-                    btn.textContent = "Copy failed";
+                    alert("Copy failed!");
                   }
                 });
               });
@@ -134,7 +146,6 @@ jobs:
           </html>
           EOF
 
-      # 7. Publish to GitHub Pages
       - name: Publish to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
