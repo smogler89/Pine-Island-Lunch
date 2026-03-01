@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>School Menus</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      background: #f3f4f6;
+      margin: 0;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    h1 { margin-bottom: 40px; }
+    .container {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      flex-wrap: wrap;
+    }
+    .card {
+      background: white;
+      padding: 40px;
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+      width: 260px;
+    }
+    .card a {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 20px;
+      border-radius: 999px;
+      background: #1d4ed8;
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .card a:hover { background: #1e40af; }
+  </style>
+</head>
+<body>
+  <h1>School Menu Calendars</h1>
+  <div class="container">
+    <div class="card">
+      <h2>🍳 Breakfast</h2>
+      <a href="./breakfast/">View Breakfast Calendars</a>
+    </div>
+    <div class="card">
+      <h2>🥪 Lunch</h2>
+      <a href="./lunch/">View Lunch Calendars</a>
+    </div>
+  </div>
+</body>
+</html>
