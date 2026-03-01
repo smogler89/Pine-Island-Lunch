@@ -48,9 +48,9 @@ jobs:
       - name: Create Combined Homepage
         run: |
           echo "Generating combined homepage..."
-          
-          # Extract school list from lunch manifest
-          SCHOOLS=$(jq -r '.schools[] | "\(.slug)|\(.name)"' public/lunch/manifest.json)
+
+          # Merge breakfast and lunch manifests
+          SCHOOLS=$(jq -s '[.[0].schools, .[1].schools] | add | unique_by(.slug) | .[] | "\(.slug)|\(.name)"' public/lunch/manifest.json public/breakfast/manifest.json)
 
           cat << 'EOF' > public/index.html
           <!DOCTYPE html>
@@ -60,60 +60,51 @@ jobs:
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>Pine Island School Menu Calendars</title>
             <style>
-              body {
-                font-family: system-ui, -apple-system, sans-serif;
-                background: #f3f4f6;
-                margin: 0;
-                padding: 60px 20px;
-              }
-              h1 {
-                text-align: center;
-                margin-bottom: 50px;
-              }
-              .container {
-                max-width: 900px;
-                margin: auto;
-                display: grid;
-                gap: 20px;
-              }
-              .school {
-                background: white;
-                padding: 24px;
-                border-radius: 16px;
-                box-shadow: 0 10px 30px rgba(0,0,0,0.06);
-              }
-              .links {
-                margin-top: 12px;
-                display: flex;
-                gap: 12px;
-                flex-wrap: wrap;
-              }
-              a {
-                display: inline-block;
-                padding: 10px 18px;
-                border-radius: 999px;
-                background: #1d4ed8;
-                color: white;
-                text-decoration: none;
-                font-weight: 600;
-                font-size: 0.9rem;
-              }
+              body { font-family: system-ui, -apple-system, sans-serif; background: #f3f4f6; margin: 0; padding: 48px 20px; }
+              h1 { text-align: center; margin-bottom: 16px; }
+              p { text-align: center; color: #4b5563; font-size: 1rem; }
+              .instructions { max-width: 720px; margin: 16px auto; color: #4b5563; font-size: 0.95rem; }
+              .instructions ul { margin: 8px 0 0; padding-left: 20px; }
+              .instructions li { margin-bottom: 6px; }
+              .container { max-width: 900px; margin: 32px auto 0; display: grid; gap: 20px; }
+              .school { background: white; padding: 24px; border-radius: 16px; box-shadow: 0 10px 30px rgba(0,0,0,0.06); }
+              .links { margin-top: 12px; display: flex; gap: 12px; flex-wrap: wrap; }
+              button, a { display: inline-flex; align-items: center; justify-content: center; padding: 10px 18px; border-radius: 999px; font-weight: 600; font-size: 0.9rem; text-decoration: none; cursor: pointer; }
+              a { background: #1d4ed8; color: white; }
+              button { background: #e5e7eb; color: #1f2937; border: none; }
               a:hover { background: #1e40af; }
+              button:hover { background: #d1d5db; }
             </style>
           </head>
           <body>
             <h1>Pine Island School Menu Calendars</h1>
+            <p>
+              Subscribe once and your calendar will update automatically with the latest
+              breakfast and lunch menus. Use the buttons below for the direct ICS link or a
+              webcal:// subscription.
+            </p>
+            <div class="instructions">
+              <strong>Quick tips:</strong>
+              <ul>
+                <li>To add this to Google Calendar, click the + next to “Other calendars” and paste the ICS link.</li>
+                <li>Use the copy button to grab an ICS link to share or add in other calendar apps.</li>
+              </ul>
+            </div>
             <div class="container">
           EOF
 
           # Append each school dynamically
           while IFS="|" read -r slug name; do
             cat << EOF >> public/index.html
-              <div class="school">
+              <div class="school" data-slug="${slug}" data-name="${name}">
                 <h2>${name}</h2>
                 <div class="links">
                   <a href="./breakfast/${slug}.ics" target="_blank">🍳 Breakfast ICS</a>
+                  <button data-menu="breakfast">Copy Breakfast ICS</button>
                   <a href="./lunch/${slug}.ics" target="_blank">🥪 Lunch ICS</a>
+                  <button data-menu="lunch">Copy Lunch ICS</button>
+                  <a href="webcal://$(echo "${GITHUB_REPOSITORY}.github.io")/breakfast/${slug}.ics">Subscribe Breakfast</a>
+                  <a href="webcal://$(echo "${GITHUB_REPOSITORY}.github.io")/lunch/${slug}.ics">Subscribe Lunch</a>
                 </div>
               </div>
           EOF
@@ -121,6 +112,24 @@ jobs:
 
           cat << 'EOF' >> public/index.html
             </div>
+            <script>
+              const buttons = document.querySelectorAll("button[data-menu]");
+              buttons.forEach(btn => {
+                btn.addEventListener("click", async () => {
+                  const school = btn.closest(".school").dataset.slug;
+                  const menu = btn.dataset.menu;
+                  const url = `./${menu}/${school}.ics`;
+                  try {
+                    await navigator.clipboard.writeText(url);
+                    const original = btn.textContent;
+                    btn.textContent = "Copied!";
+                    setTimeout(() => { btn.textContent = original; }, 2000);
+                  } catch {
+                    btn.textContent = "Copy failed";
+                  }
+                });
+              });
+            </script>
           </body>
           </html>
           EOF
