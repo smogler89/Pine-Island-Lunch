@@ -3,52 +3,79 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pine Island School Menus</title>
+  <title>School Menu Calendars</title>
   <style>
     body {
       font-family: system-ui, -apple-system, sans-serif;
       background: #f3f4f6;
       margin: 0;
       padding: 60px 20px;
-      text-align: center;
     }
-    h1 { margin-bottom: 40px; }
+    h1 {
+      text-align: center;
+      margin-bottom: 50px;
+    }
     .container {
+      max-width: 900px;
+      margin: auto;
+      display: grid;
+      gap: 20px;
+    }
+    .school {
+      background: white;
+      padding: 24px;
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.06);
+    }
+    .links {
+      margin-top: 12px;
       display: flex;
-      justify-content: center;
-      gap: 40px;
+      gap: 12px;
       flex-wrap: wrap;
     }
-    .card {
-      background: white;
-      padding: 40px;
-      border-radius: 16px;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.08);
-      width: 260px;
-    }
-    .card a {
+    a {
       display: inline-block;
-      margin-top: 20px;
-      padding: 12px 20px;
+      padding: 10px 18px;
       border-radius: 999px;
       background: #1d4ed8;
       color: white;
       text-decoration: none;
       font-weight: 600;
+      font-size: 0.9rem;
     }
-    .card a:hover { background: #1e40af; }
+    a:hover { background: #1e40af; }
   </style>
 </head>
 <body>
   <h1>School Menu Calendars</h1>
   <div class="container">
-    <div class="card">
-      <h2>🍳 Breakfast</h2>
-      <a href="./breakfast/">View Breakfast Calendars</a>
+    <div class="school">
+      <h2>5-12 Grades</h2>
+      <div class="links">
+        <a href="./breakfast/5-12-pi-middle-high-school.ics" target="_blank">🍳 Breakfast ICS</a>
+        <a href="./lunch/5-12-pi-middle-high-school.ics" target="_blank">🥪 Lunch ICS</a>
+      </div>
     </div>
-    <div class="card">
-      <h2>🥪 Lunch</h2>
-      <a href="./lunch/">View Lunch Calendars</a>
+    <div class="school">
+      <h2>Cubbies</h2>
+      <div class="links">
+        <a href="./breakfast/223-1st-ave-se-pine-island-mn-55963.ics" target="_blank">🍳 Breakfast ICS</a>
+        <a href="./lunch/223-1st-ave-se-pine-island-mn-55963.ics" target="_blank">🥪 Lunch ICS</a>
+      </div>
+    </div>
+    <div class="school">
+      <h2>Pace/Trails</h2>
+      <div class="links">
+        <a href="./breakfast/zed-cubbies.ics" target="_blank">🍳 Breakfast ICS</a>
+        <a href="./lunch/zed-cubbies.ics" target="_blank">🥪 Lunch ICS</a>
+      </div>
+    </div>
+    <div class="school">
+      <h2>Pre-K-4 Elementary Building</h2>
+      <div class="links">
+        <a href="./breakfast/pre-k-4-elementary-building.ics" target="_blank">🍳 Breakfast ICS</a>
+        <a href="./lunch/pre-k-4-elementary-building.ics" target="_blank">🥪 Lunch ICS</a>
+      </div>
     </div>
   </div>
 </body>
