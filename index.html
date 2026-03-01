@@ -16,10 +16,12 @@
     .links { margin-top: 12px; display: flex; flex-direction: column; gap: 8px; }
     .row { display: flex; gap: 12px; flex-wrap: wrap; }
     button, a { display: inline-flex; align-items: center; justify-content: center; padding: 10px 18px; border-radius: 999px; font-weight: 600; font-size: 0.9rem; text-decoration: none; cursor: pointer; position: relative; }
-    a { background: #1d4ed8; color: white; }
-    button { background: #e5e7eb; color: #1f2937; border: none; }
-    a:hover { background: #1e40af; }
-    button:hover { background: #d1d5db; }
+    a.subscribe { background: #1d4ed8; color: white; }
+    a.ics { background: #e5e7eb; color: #1f2937; }  /* grey ICS links */
+    button.copy { background: #1d4ed8; color: white; border: none; } /* blue copy buttons */
+    a.subscribe:hover { background: #1e40af; }
+    button.copy:hover { background: #1e40af; }
+    a.ics:hover { background: #d1d5db; }
     .tooltip {
       position: absolute;
       top: -28px;
@@ -56,16 +58,16 @@
       <h2>Cubbies</h2>
       <div class="links">
         <div class="row">
-          <a href="webcal://smogler89/Pine-Island-Lunch.github.io/breakfast/"223-1st-ave-se-pine-island-mn-55963.ics">🍳 Subscribe Breakfast</a>
-          <a href="./breakfast/"223-1st-ave-se-pine-island-mn-55963.ics" target="_blank">Breakfast ICS</a>
-          <button data-menu="breakfast">Copy Breakfast ICS
+          <a class="subscribe" href="webcal://smogler89/Pine-Island-Lunch.github.io/breakfast/"223-1st-ave-se-pine-island-mn-55963.ics">🍳 Subscribe Breakfast</a>
+          <a class="ics" href="./breakfast/"223-1st-ave-se-pine-island-mn-55963.ics" target="_blank">Breakfast ICS</a>
+          <button class="copy" data-menu="breakfast">Copy Breakfast ICS
             <span class="tooltip">Copied!</span>
           </button>
         </div>
         <div class="row">
-          <a href="webcal://smogler89/Pine-Island-Lunch.github.io/lunch/"223-1st-ave-se-pine-island-mn-55963.ics">🥪 Subscribe Lunch</a>
-          <a href="./lunch/"223-1st-ave-se-pine-island-mn-55963.ics" target="_blank">Lunch ICS</a>
-          <button data-menu="lunch">Copy Lunch ICS
+          <a class="subscribe" href="webcal://smogler89/Pine-Island-Lunch.github.io/lunch/"223-1st-ave-se-pine-island-mn-55963.ics">🥪 Subscribe Lunch</a>
+          <a class="ics" href="./lunch/"223-1st-ave-se-pine-island-mn-55963.ics" target="_blank">Lunch ICS</a>
+          <button class="copy" data-menu="lunch">Copy Lunch ICS
             <span class="tooltip">Copied!</span>
           </button>
         </div>
@@ -75,16 +77,16 @@
       <h2>5-12 Grades</h2>
       <div class="links">
         <div class="row">
-          <a href="webcal://smogler89/Pine-Island-Lunch.github.io/breakfast/"5-12-pi-middle-high-school.ics">🍳 Subscribe Breakfast</a>
-          <a href="./breakfast/"5-12-pi-middle-high-school.ics" target="_blank">Breakfast ICS</a>
-          <button data-menu="breakfast">Copy Breakfast ICS
+          <a class="subscribe" href="webcal://smogler89/Pine-Island-Lunch.github.io/breakfast/"5-12-pi-middle-high-school.ics">🍳 Subscribe Breakfast</a>
+          <a class="ics" href="./breakfast/"5-12-pi-middle-high-school.ics" target="_blank">Breakfast ICS</a>
+          <button class="copy" data-menu="breakfast">Copy Breakfast ICS
             <span class="tooltip">Copied!</span>
           </button>
         </div>
         <div class="row">
-          <a href="webcal://smogler89/Pine-Island-Lunch.github.io/lunch/"5-12-pi-middle-high-school.ics">🥪 Subscribe Lunch</a>
-          <a href="./lunch/"5-12-pi-middle-high-school.ics" target="_blank">Lunch ICS</a>
-          <button data-menu="lunch">Copy Lunch ICS
+          <a class="subscribe" href="webcal://smogler89/Pine-Island-Lunch.github.io/lunch/"5-12-pi-middle-high-school.ics">🥪 Subscribe Lunch</a>
+          <a class="ics" href="./lunch/"5-12-pi-middle-high-school.ics" target="_blank">Lunch ICS</a>
+          <button class="copy" data-menu="lunch">Copy Lunch ICS
             <span class="tooltip">Copied!</span>
           </button>
         </div>
@@ -94,16 +96,16 @@
       <h2>Pre-K-4 Elementary Building</h2>
       <div class="links">
         <div class="row">
-          <a href="webcal://smogler89/Pine-Island-Lunch.github.io/breakfast/"pre-k-4-elementary-building.ics">🍳 Subscribe Breakfast</a>
-          <a href="./breakfast/"pre-k-4-elementary-building.ics" target="_blank">Breakfast ICS</a>
-          <button data-menu="breakfast">Copy Breakfast ICS
+          <a class="subscribe" href="webcal://smogler89/Pine-Island-Lunch.github.io/breakfast/"pre-k-4-elementary-building.ics">🍳 Subscribe Breakfast</a>
+          <a class="ics" href="./breakfast/"pre-k-4-elementary-building.ics" target="_blank">Breakfast ICS</a>
+          <button class="copy" data-menu="breakfast">Copy Breakfast ICS
             <span class="tooltip">Copied!</span>
           </button>
         </div>
         <div class="row">
-          <a href="webcal://smogler89/Pine-Island-Lunch.github.io/lunch/"pre-k-4-elementary-building.ics">🥪 Subscribe Lunch</a>
-          <a href="./lunch/"pre-k-4-elementary-building.ics" target="_blank">Lunch ICS</a>
-          <button data-menu="lunch">Copy Lunch ICS
+          <a class="subscribe" href="webcal://smogler89/Pine-Island-Lunch.github.io/lunch/"pre-k-4-elementary-building.ics">🥪 Subscribe Lunch</a>
+          <a class="ics" href="./lunch/"pre-k-4-elementary-building.ics" target="_blank">Lunch ICS</a>
+          <button class="copy" data-menu="lunch">Copy Lunch ICS
             <span class="tooltip">Copied!</span>
           </button>
         </div>
@@ -113,16 +115,16 @@
       <h2>Pace/Trails</h2>
       <div class="links">
         <div class="row">
-          <a href="webcal://smogler89/Pine-Island-Lunch.github.io/breakfast/"zed-cubbies.ics">🍳 Subscribe Breakfast</a>
-          <a href="./breakfast/"zed-cubbies.ics" target="_blank">Breakfast ICS</a>
-          <button data-menu="breakfast">Copy Breakfast ICS
+          <a class="subscribe" href="webcal://smogler89/Pine-Island-Lunch.github.io/breakfast/"zed-cubbies.ics">🍳 Subscribe Breakfast</a>
+          <a class="ics" href="./breakfast/"zed-cubbies.ics" target="_blank">Breakfast ICS</a>
+          <button class="copy" data-menu="breakfast">Copy Breakfast ICS
             <span class="tooltip">Copied!</span>
           </button>
         </div>
         <div class="row">
-          <a href="webcal://smogler89/Pine-Island-Lunch.github.io/lunch/"zed-cubbies.ics">🥪 Subscribe Lunch</a>
-          <a href="./lunch/"zed-cubbies.ics" target="_blank">Lunch ICS</a>
-          <button data-menu="lunch">Copy Lunch ICS
+          <a class="subscribe" href="webcal://smogler89/Pine-Island-Lunch.github.io/lunch/"zed-cubbies.ics">🥪 Subscribe Lunch</a>
+          <a class="ics" href="./lunch/"zed-cubbies.ics" target="_blank">Lunch ICS</a>
+          <button class="copy" data-menu="lunch">Copy Lunch ICS
             <span class="tooltip">Copied!</span>
           </button>
         </div>
@@ -130,7 +132,7 @@
     </div>
   </div>
   <script>
-    const buttons = document.querySelectorAll("button[data-menu]");
+    const buttons = document.querySelectorAll("button.copy");
     buttons.forEach(btn => {
       btn.addEventListener("click", async () => {
         const school = btn.closest(".school").dataset.slug;
