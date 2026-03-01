@@ -68,12 +68,28 @@ jobs:
               .instructions li { margin-bottom: 6px; }
               .container { max-width: 900px; margin: 32px auto 0; display: grid; gap: 20px; }
               .school { background: white; padding: 24px; border-radius: 16px; box-shadow: 0 10px 30px rgba(0,0,0,0.06); }
-              .links { margin-top: 12px; display: flex; gap: 12px; flex-wrap: wrap; }
-              button, a { display: inline-flex; align-items: center; justify-content: center; padding: 10px 18px; border-radius: 999px; font-weight: 600; font-size: 0.9rem; text-decoration: none; cursor: pointer; }
+              .links { margin-top: 12px; display: flex; flex-direction: column; gap: 8px; }
+              .row { display: flex; gap: 12px; flex-wrap: wrap; }
+              button, a { display: inline-flex; align-items: center; justify-content: center; padding: 10px 18px; border-radius: 999px; font-weight: 600; font-size: 0.9rem; text-decoration: none; cursor: pointer; position: relative; }
               a { background: #1d4ed8; color: white; }
               button { background: #e5e7eb; color: #1f2937; border: none; }
               a:hover { background: #1e40af; }
               button:hover { background: #d1d5db; }
+              .tooltip {
+                position: absolute;
+                top: -28px;
+                left: 50%;
+                transform: translateX(-50%);
+                background: #111827;
+                color: white;
+                font-size: 0.75rem;
+                padding: 2px 8px;
+                border-radius: 4px;
+                opacity: 0;
+                pointer-events: none;
+                transition: opacity 0.2s;
+              }
+              .tooltip.show { opacity: 1; }
             </style>
           </head>
           <body>
@@ -95,16 +111,25 @@ jobs:
 
           # Append each school dynamically
           while IFS="|" read -r slug name; do
+            name="${name%\"}"  # remove trailing quotes
             cat << EOF >> public/index.html
               <div class="school" data-slug="${slug}" data-name="${name}">
                 <h2>${name}</h2>
                 <div class="links">
-                  <a href="./breakfast/${slug}.ics" target="_blank">🍳 Breakfast ICS</a>
-                  <button data-menu="breakfast">Copy Breakfast ICS</button>
-                  <a href="./lunch/${slug}.ics" target="_blank">🥪 Lunch ICS</a>
-                  <button data-menu="lunch">Copy Lunch ICS</button>
-                  <a href="webcal://$(echo "${GITHUB_REPOSITORY}.github.io")/breakfast/${slug}.ics">Subscribe Breakfast</a>
-                  <a href="webcal://$(echo "${GITHUB_REPOSITORY}.github.io")/lunch/${slug}.ics">Subscribe Lunch</a>
+                  <div class="row">
+                    <a href="webcal://$(echo "${GITHUB_REPOSITORY}.github.io")/breakfast/${slug}.ics">🍳 Subscribe Breakfast</a>
+                    <a href="./breakfast/${slug}.ics" target="_blank">Breakfast ICS</a>
+                    <button data-menu="breakfast">Copy Breakfast ICS
+                      <span class="tooltip">Copied!</span>
+                    </button>
+                  </div>
+                  <div class="row">
+                    <a href="webcal://$(echo "${GITHUB_REPOSITORY}.github.io")/lunch/${slug}.ics">🥪 Subscribe Lunch</a>
+                    <a href="./lunch/${slug}.ics" target="_blank">Lunch ICS</a>
+                    <button data-menu="lunch">Copy Lunch ICS
+                      <span class="tooltip">Copied!</span>
+                    </button>
+                  </div>
                 </div>
               </div>
           EOF
@@ -121,11 +146,11 @@ jobs:
                   const url = `./${menu}/${school}.ics`;
                   try {
                     await navigator.clipboard.writeText(url);
-                    const original = btn.textContent;
-                    btn.textContent = "Copied!";
-                    setTimeout(() => { btn.textContent = original; }, 2000);
+                    const tooltip = btn.querySelector(".tooltip");
+                    tooltip.classList.add("show");
+                    setTimeout(() => { tooltip.classList.remove("show"); }, 1500);
                   } catch {
-                    btn.textContent = "Copy failed";
+                    alert("Copy failed");
                   }
                 });
               });
