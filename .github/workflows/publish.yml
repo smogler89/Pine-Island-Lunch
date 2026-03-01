@@ -1,4 +1,4 @@
-name: Publish lunch calendars
+name: Publish school calendars
 
 on:
   schedule:
@@ -23,12 +23,21 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Generate calendars
-        env:
-          NUTRISLICE_DISTRICT: ${{ vars.NUTRISLICE_DISTRICT || 'a2schools' }}
-          NUTRISLICE_MENU_TYPE: ${{ vars.NUTRISLICE_MENU_TYPE || 'lunch' }}
-          NUTRISLICE_DAYS_AHEAD: ${{ vars.NUTRISLICE_DAYS_AHEAD || '28' }}
-        run: python generate_ics.py
+      - name: Generate Lunch Calendars
+        run: |
+          python generate_ics.py \
+            --district "${{ vars.NUTRISLICE_DISTRICT || 'a2schools' }}" \
+            --menu-type lunch \
+            --days-ahead "${{ vars.NUTRISLICE_DAYS_AHEAD || '28' }}" \
+            --output-dir public/lunch
+
+      - name: Generate Breakfast Calendars
+        run: |
+          python generate_ics.py \
+            --district "${{ vars.NUTRISLICE_DISTRICT || 'a2schools' }}" \
+            --menu-type breakfast \
+            --days-ahead "${{ vars.NUTRISLICE_DAYS_AHEAD || '28' }}" \
+            --output-dir public/breakfast
 
       - name: Publish to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
