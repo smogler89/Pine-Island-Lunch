@@ -5,4 +5,39 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:5-12 Grades Lunch Menu
 X-WR-CALDESC:Lunch menus for 5-12 Grades.
+BEGIN:VEVENT
+UID:5-12-pi-middle-high-school-2026-03-02@pineisland
+DTSTAMP:20260302T210636Z
+DTSTART;VALUE=DATE:20260302
+SUMMARY:Hamburger on Bun
+DESCRIPTION:Full menu:\nVegetable Selection\nFruit Selection\n1% White milk\nChocolate Milk\nHamburger on Bun\nCheeseburger on Bun\nChicken Patty\nSpicy Chicken Sandwich\nHomemade Cheese Pizza\nHomemade Sausage Pizza
+END:VEVENT
+BEGIN:VEVENT
+UID:5-12-pi-middle-high-school-2026-03-03@pineisland
+DTSTAMP:20260302T210636Z
+DTSTART;VALUE=DATE:20260303
+SUMMARY:Baked Potato Bar
+DESCRIPTION:Full menu:\nBaked Potato Bar\nVegetable Selection\nFruit Selection\n1% White milk\nChocolate Milk\nHamburger on Bun\nCheeseburger on Bun\nChicken Patty\nSpicy Chicken Sandwich
+END:VEVENT
+BEGIN:VEVENT
+UID:5-12-pi-middle-high-school-2026-03-04@pineisland
+DTSTAMP:20260302T210636Z
+DTSTART;VALUE=DATE:20260304
+SUMMARY:Hamburger on Bun
+DESCRIPTION:Full menu:\npepperoni pizza pasta bake\nVegetable Selection\nFruit Selection\nChocolate Milk\n1% White milk\nHamburger on Bun\nCheeseburger on Bun\nChicken Patty\nSpicy Chicken Sandwich
+END:VEVENT
+BEGIN:VEVENT
+UID:5-12-pi-middle-high-school-2026-03-05@pineisland
+DTSTAMP:20260302T210636Z
+DTSTART;VALUE=DATE:20260305
+SUMMARY:Hamburger on Bun
+DESCRIPTION:Full menu:\nHotdog on a Bun\nVegetable Selection\nFruit Selection\nChocolate Milk\n1% White milk\nHamburger on Bun\nCheeseburger on Bun\nChicken Patty\nSpicy Chicken Sandwich\nHomemade Cheese Pizza\nHomemade Sausage Pizza
+END:VEVENT
+BEGIN:VEVENT
+UID:5-12-pi-middle-high-school-2026-03-06@pineisland
+DTSTAMP:20260302T210636Z
+DTSTART;VALUE=DATE:20260306
+SUMMARY:Cheese Pizza
+DESCRIPTION:Full menu:\nCheese Pizza\nVegetable Selection\nFruit Selection\nChocolate Milk\n1% White milk\nHamburger on Bun\nCheeseburger on Bun\nChicken Patty\nSpicy Chicken Sandwich\nHomemade Cheese Pizza\nHomemade Sausage Pizza
+END:VEVENT
 END:VCALENDAR
