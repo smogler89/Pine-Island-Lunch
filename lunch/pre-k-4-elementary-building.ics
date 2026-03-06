@@ -6,150 +6,150 @@ METHOD:PUBLISH
 X-WR-CALNAME:Pre-K-4 Elementary Building Lunch Menu
 X-WR-CALDESC:Lunch menus for Pre-K-4 Elementary Building.
 BEGIN:VEVENT
-UID:pre-k-4-elementary-building-2026-03-05@pineisland
-DTSTAMP:20260305T215245Z
-DTSTART;VALUE=DATE:20260305
-SUMMARY:Chicken Bacon Ranch Pasta
-DESCRIPTION:Full menu:\nChicken Bacon Ranch Pasta\nMuffin\nTrix Yogurt\nString Cheese\nGreen Beans\nFruit Selection\n1% White milk\nChocolate Milk
-END:VEVENT
-BEGIN:VEVENT
 UID:pre-k-4-elementary-building-2026-03-06@pineisland
-DTSTAMP:20260305T215245Z
+DTSTAMP:20260306T210003Z
 DTSTART;VALUE=DATE:20260306
 SUMMARY:Cheesy Garlic Bread
 DESCRIPTION:Full menu:\nCheesy Garlic Bread\nMarinara\nHam and Turkey Sub\nSteamed Corn\nFruit Selection\n1% White milk\nChocolate Milk
 END:VEVENT
 BEGIN:VEVENT
 UID:pre-k-4-elementary-building-2026-03-09@pineisland
-DTSTAMP:20260305T215245Z
+DTSTAMP:20260306T210003Z
 DTSTART;VALUE=DATE:20260309
 SUMMARY:Chicken Quesadilla
 DESCRIPTION:Full menu:\nChicken Quesadilla\nYogurt Parfait\nSteamed Carrots\nVegetable Selection\nFruit Selection\n1% White milk\nChocolate Milk
 END:VEVENT
 BEGIN:VEVENT
 UID:pre-k-4-elementary-building-2026-03-10@pineisland
-DTSTAMP:20260305T215245Z
+DTSTAMP:20260306T210003Z
 DTSTART;VALUE=DATE:20260310
 SUMMARY:Crispy Chicken Nuggets
 DESCRIPTION:Full menu:\nCrispy Chicken Nuggets\nBreadstick\nMuffin\nTrix Yogurt\nString Cheese\nGreen Peas\nVegetable Selection\nFruit Selection\n1% White milk\nChocolate Milk
 END:VEVENT
 BEGIN:VEVENT
 UID:pre-k-4-elementary-building-2026-03-11@pineisland
-DTSTAMP:20260305T215245Z
+DTSTAMP:20260306T210003Z
 DTSTART;VALUE=DATE:20260311
 SUMMARY:Sloppy Joe on Bun
 DESCRIPTION:Full menu:\nSloppy Joe on Bun\nHam and Turkey Sub\nBaked Beans\nVegetable Selection\nFruit Selection\n1% White milk\nChocolate Milk
 END:VEVENT
 BEGIN:VEVENT
 UID:pre-k-4-elementary-building-2026-03-12@pineisland
-DTSTAMP:20260305T215245Z
+DTSTAMP:20260306T210003Z
 DTSTART;VALUE=DATE:20260312
 SUMMARY:Hamburger on Bun
 DESCRIPTION:Full menu:\nHamburger on Bun\ncrispy chicken sandwich on bun\nFrench Fries\nVegetable Selection\nFruit Selection\n1% White milk\nChocolate Milk
 END:VEVENT
 BEGIN:VEVENT
 UID:pre-k-4-elementary-building-2026-03-13@pineisland
-DTSTAMP:20260305T215245Z
+DTSTAMP:20260306T210003Z
 DTSTART;VALUE=DATE:20260313
 SUMMARY:Cheese Pizza
 DESCRIPTION:Full menu:\nCheese Pizza\nPopcorn Chicken Salad\nWheat Roll\nSteamed Carrots\nVegetable Selection\nFruit Selection\n1% White milk\nChocolate Milk
 END:VEVENT
 BEGIN:VEVENT
 UID:pre-k-4-elementary-building-2026-03-16@pineisland
-DTSTAMP:20260305T215245Z
+DTSTAMP:20260306T210003Z
 DTSTART;VALUE=DATE:20260316
 SUMMARY:Lunch Menu
 DESCRIPTION:Full menu:\npepperoni pizza pasta bake\nBreadstick\nMuffin\nTrix Yogurt\nString Cheese\nSteamed Carrots\nVegetable Selection\nFruit Selection\n1% White milk\nChocolate Milk
 END:VEVENT
 BEGIN:VEVENT
 UID:pre-k-4-elementary-building-2026-03-17@pineisland
-DTSTAMP:20260305T215245Z
+DTSTAMP:20260306T210003Z
 DTSTART;VALUE=DATE:20260317
 SUMMARY:Lunch Menu
 DESCRIPTION:Full menu:\nHot Ham and Cheese Sandwich\nHotdog on a Bun\nVegetable Selection\nFruit Selection\n1% White milk\nChocolate Milk
 END:VEVENT
 BEGIN:VEVENT
 UID:pre-k-4-elementary-building-2026-03-18@pineisland
-DTSTAMP:20260305T215245Z
+DTSTAMP:20260306T210003Z
 DTSTART;VALUE=DATE:20260318
 SUMMARY:Beef Soft Taco
 DESCRIPTION:Full menu:\nBeef Soft Taco\nRefried Beans\nBBQ Riblet on Bun\nVegetable Selection\nFruit Selection\n1% White milk\nChocolate Milk
 END:VEVENT
 BEGIN:VEVENT
 UID:pre-k-4-elementary-building-2026-03-19@pineisland
-DTSTAMP:20260305T215245Z
+DTSTAMP:20260306T210003Z
 DTSTART;VALUE=DATE:20260319
 SUMMARY:Cheeseburger on Bun
 DESCRIPTION:Full menu:\nCheeseburger on Bun\nPopcorn Chicken Salad\nWheat Roll\nCrispy Tater Tots\nVegetable Selection\nFruit Selection\n1% White milk\nChocolate Milk
 END:VEVENT
 BEGIN:VEVENT
 UID:pre-k-4-elementary-building-2026-03-20@pineisland
-DTSTAMP:20260305T215245Z
+DTSTAMP:20260306T210003Z
 DTSTART;VALUE=DATE:20260320
 SUMMARY:WG Pretzel with cheese
 DESCRIPTION:Full menu:\nSausage Pizza\nWG Pretzel with cheese\nSteamed Carrots\nVegetable Selection\nFruit Selection\n1% White milk\nChocolate Milk
 END:VEVENT
 BEGIN:VEVENT
 UID:pre-k-4-elementary-building-2026-03-23@pineisland
-DTSTAMP:20260305T215245Z
+DTSTAMP:20260306T210003Z
 DTSTART;VALUE=DATE:20260323
 SUMMARY:Lunch Menu
 DESCRIPTION:Full menu:\nNO SCHOOL
 END:VEVENT
 BEGIN:VEVENT
 UID:pre-k-4-elementary-building-2026-03-24@pineisland
-DTSTAMP:20260305T215245Z
+DTSTAMP:20260306T210003Z
 DTSTART;VALUE=DATE:20260324
 SUMMARY:Lunch Menu
 DESCRIPTION:Full menu:\nNO SCHOOL
 END:VEVENT
 BEGIN:VEVENT
 UID:pre-k-4-elementary-building-2026-03-25@pineisland
-DTSTAMP:20260305T215245Z
+DTSTAMP:20260306T210003Z
 DTSTART;VALUE=DATE:20260325
 SUMMARY:Lunch Menu
 DESCRIPTION:Full menu:\nNO SCHOOL
 END:VEVENT
 BEGIN:VEVENT
 UID:pre-k-4-elementary-building-2026-03-26@pineisland
-DTSTAMP:20260305T215245Z
+DTSTAMP:20260306T210003Z
 DTSTART;VALUE=DATE:20260326
 SUMMARY:Lunch Menu
 DESCRIPTION:Full menu:\nNO SCHOOL
 END:VEVENT
 BEGIN:VEVENT
 UID:pre-k-4-elementary-building-2026-03-27@pineisland
-DTSTAMP:20260305T215245Z
+DTSTAMP:20260306T210003Z
 DTSTART;VALUE=DATE:20260327
 SUMMARY:Lunch Menu
 DESCRIPTION:Full menu:\nNO SCHOOL
 END:VEVENT
 BEGIN:VEVENT
 UID:pre-k-4-elementary-building-2026-03-30@pineisland
-DTSTAMP:20260305T215245Z
+DTSTAMP:20260306T210003Z
 DTSTART;VALUE=DATE:20260330
 SUMMARY:Cheeseburger on Bun
 DESCRIPTION:Full menu:\nBiscuits with Chicken Gravy\nCheeseburger on Bun\nGreen Beans\nVegetable Selection\nFruit Selection\n1% White milk\nChocolate Milk
 END:VEVENT
 BEGIN:VEVENT
 UID:pre-k-4-elementary-building-2026-03-31@pineisland
-DTSTAMP:20260305T215245Z
+DTSTAMP:20260306T210003Z
 DTSTART;VALUE=DATE:20260331
 SUMMARY:Teriyaki Chicken
 DESCRIPTION:Full menu:\nTeriyaki Chicken\nOven Fried Rice\nMuffin\nTrix Yogurt\nString Cheese\nSteamed Carrots\nVegetable Selection\nFruit Selection\n1% White milk\nChocolate Milk
 END:VEVENT
 BEGIN:VEVENT
 UID:pre-k-4-elementary-building-2026-04-01@pineisland
-DTSTAMP:20260305T215245Z
+DTSTAMP:20260306T210003Z
 DTSTART;VALUE=DATE:20260401
 SUMMARY:Pulled Pork on Bun
 DESCRIPTION:Full menu:\nPulled Pork on Bun\ncrispy chicken sandwich on bun\nCrispy Smiley Fries\nVegetable Selection\nFruit Selection\n1% White milk\nChocolate Milk
 END:VEVENT
 BEGIN:VEVENT
 UID:pre-k-4-elementary-building-2026-04-02@pineisland
-DTSTAMP:20260305T215245Z
+DTSTAMP:20260306T210003Z
 DTSTART;VALUE=DATE:20260402
 SUMMARY:Chicken Alfredo w/a Twist
 DESCRIPTION:Full menu:\nChicken Alfredo w/a Twist\nBreadstick\nHam and Turkey Sub\nSteamed Broccoli\nVegetable Selection\nFruit Selection\n1% White milk\nChocolate Milk
+END:VEVENT
+BEGIN:VEVENT
+UID:pre-k-4-elementary-building-2026-04-03@pineisland
+DTSTAMP:20260306T210003Z
+DTSTART;VALUE=DATE:20260403
+SUMMARY:Cheese Pizza
+DESCRIPTION:Full menu:\nCheese Pizza\nChicken Caesar Wrap\nSteamed Corn\nVegetable Selection\nFruit Selection\n1% White milk\nChocolate Milk
 END:VEVENT
 END:VCALENDAR
