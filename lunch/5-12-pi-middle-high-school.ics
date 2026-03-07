@@ -6,10 +6,10 @@ METHOD:PUBLISH
 X-WR-CALNAME:5-12 Grades Lunch Menu
 X-WR-CALDESC:Lunch menus for 5-12 Grades.
 BEGIN:VEVENT
-UID:5-12-pi-middle-high-school-2026-03-06@pineisland
-DTSTAMP:20260306T210001Z
-DTSTART;VALUE=DATE:20260306
+UID:5-12-pi-middle-high-school-2026-03-09@pineisland
+DTSTAMP:20260307T205031Z
+DTSTART;VALUE=DATE:20260309
 SUMMARY:Lunch Menu
-DESCRIPTION:Full menu:\nVegetable Selection\nFruit Selection\nChocolate Milk\n1% White milk
+DESCRIPTION:Full menu:\nVegetable Selection\nFruit Selection\n1% White milk\nChocolate Milk
 END:VEVENT
 END:VCALENDAR
