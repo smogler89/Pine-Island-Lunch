@@ -6,71 +6,64 @@ METHOD:PUBLISH
 X-WR-CALNAME:5-12 Grades Lunch Menu
 X-WR-CALDESC:Lunch menus for 5-12 Grades.
 BEGIN:VEVENT
-UID:5-12-pi-middle-high-school-2026-03-11@pineisland
-DTSTAMP:20260311T210231Z
-DTSTART;VALUE=DATE:20260311
-SUMMARY:Hamburger on Bun
-DESCRIPTION:Full menu:\ntater tot hotdish\npepperoni pizza pasta bake\nVegetable Selection\nFruit Selection\n1% White milk\nChocolate Milk\nHamburger on Bun\nCheeseburger on Bun\nChicken Patty\nSpicy Chicken Sandwich\nHomemade Cheese Pizza\nHomemade Sausage Pizza
-END:VEVENT
-BEGIN:VEVENT
 UID:5-12-pi-middle-high-school-2026-03-12@pineisland
-DTSTAMP:20260311T210231Z
+DTSTAMP:20260312T210522Z
 DTSTART;VALUE=DATE:20260312
 SUMMARY:Popcorn Chicken Bowl
 DESCRIPTION:Full menu:\nPopcorn Chicken Bowl\nVegetable Selection\nFruit Selection\n1% White milk\nChocolate Milk\nHamburger on Bun\nCheeseburger on Bun\nChicken Patty\nSpicy Chicken Sandwich
 END:VEVENT
 BEGIN:VEVENT
 UID:5-12-pi-middle-high-school-2026-03-13@pineisland
-DTSTAMP:20260311T210231Z
+DTSTAMP:20260312T210522Z
 DTSTART;VALUE=DATE:20260313
 SUMMARY:Chicken Nuggets
 DESCRIPTION:Full menu:\nChicken Nuggets\nFish Sticks\nVegetable Selection\nFruit Selection\n1% White milk\nChocolate Milk\nHamburger on Bun\nCheeseburger on Bun\nChicken Patty\nSpicy Chicken Sandwich\nHomemade Cheese Pizza\nHomemade Sausage Pizza
 END:VEVENT
 BEGIN:VEVENT
 UID:5-12-pi-middle-high-school-2026-03-16@pineisland
-DTSTAMP:20260311T210231Z
+DTSTAMP:20260312T210522Z
 DTSTART;VALUE=DATE:20260316
 SUMMARY:Hamburger on Bun
 DESCRIPTION:Full menu:\nPulled Pork on Flatbread\nBBQ Chicken Sandwich\nVegetable Selection\nFruit Selection\n1% White milk\nChocolate Milk\nHamburger on Bun\nCheeseburger on Bun\nChicken Patty\nSpicy Chicken Sandwich
 END:VEVENT
 BEGIN:VEVENT
 UID:5-12-pi-middle-high-school-2026-03-17@pineisland
-DTSTAMP:20260311T210231Z
+DTSTAMP:20260312T210522Z
 DTSTART;VALUE=DATE:20260317
 SUMMARY:Sweet & Sour Chicken
 DESCRIPTION:Full menu:\nSweet & Sour Chicken\nOven Fried Rice\nTeriyaki Chicken\nVegetable Selection\nFruit Selection\n1% White milk\nChocolate Milk\nHamburger on Bun\nCheeseburger on Bun\nChicken Patty\nSpicy Chicken Sandwich
 END:VEVENT
 BEGIN:VEVENT
 UID:5-12-pi-middle-high-school-2026-03-18@pineisland
-DTSTAMP:20260311T210231Z
+DTSTAMP:20260312T210522Z
 DTSTART;VALUE=DATE:20260318
 SUMMARY:Hamburger on Bun
 DESCRIPTION:Full menu:\nVegetable Selection\nFruit Selection\n1% White milk\nChocolate Milk\nHamburger on Bun\nCheeseburger on Bun\nChicken Patty\nSpicy Chicken Sandwich
 END:VEVENT
 BEGIN:VEVENT
 UID:5-12-pi-middle-high-school-2026-03-19@pineisland
-DTSTAMP:20260311T210231Z
+DTSTAMP:20260312T210522Z
 DTSTART;VALUE=DATE:20260319
 SUMMARY:BBQ Riblet on Bun
 DESCRIPTION:Full menu:\nBBQ Riblet on Bun\nVegetable Selection\nFruit Selection\n1% White milk\nChocolate Milk\nHamburger on Bun\nCheeseburger on Bun\nChicken Patty\nSpicy Chicken Sandwich\nCheesy Garlic Bread
 END:VEVENT
 BEGIN:VEVENT
 UID:5-12-pi-middle-high-school-2026-03-20@pineisland
-DTSTAMP:20260311T210231Z
+DTSTAMP:20260312T210522Z
 DTSTART;VALUE=DATE:20260320
 SUMMARY:Corn Dog
 DESCRIPTION:Full menu:\nPB&J Uncrustable\nCorn Dog\nFruit Selection\n1% White milk\nChocolate Milk
 END:VEVENT
 BEGIN:VEVENT
 UID:5-12-pi-middle-high-school-2026-03-30@pineisland
-DTSTAMP:20260311T210231Z
+DTSTAMP:20260312T210522Z
 DTSTART;VALUE=DATE:20260330
 SUMMARY:WG Pretzel with cheese
 DESCRIPTION:Full menu:\nWG Pretzel with cheese\nchili\nVegetable Selection\nFruit Selection\n1% White milk\nChocolate Milk\nHamburger on Bun\nCheeseburger on Bun\nChicken Patty\nSpicy Chicken Sandwich
 END:VEVENT
 BEGIN:VEVENT
 UID:5-12-pi-middle-high-school-2026-03-31@pineisland
-DTSTAMP:20260311T210231Z
+DTSTAMP:20260312T210522Z
 DTSTART;VALUE=DATE:20260331
 SUMMARY:Beef Taco
 DESCRIPTION:Full menu:\nBeef Taco\nChicken Fajita\nVegetable Selection\nFruit Selection\n1% White milk\nChocolate Milk\nHamburger on Bun\nCheeseburger on Bun\nChicken Patty\nSpicy Chicken Sandwich
