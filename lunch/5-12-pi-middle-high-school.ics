@@ -6,43 +6,36 @@ METHOD:PUBLISH
 X-WR-CALNAME:5-12 Grades Lunch Menu
 X-WR-CALDESC:Lunch menus for 5-12 Grades.
 BEGIN:VEVENT
-UID:5-12-pi-middle-high-school-2026-03-17@pineisland
-DTSTAMP:20260317T215619Z
-DTSTART;VALUE=DATE:20260317
-SUMMARY:Corn Dog
-DESCRIPTION:Full menu:\nCorn Dog\nVegetable Selection\nFruit Selection\n1% White milk\nChocolate Milk\nHamburger on Bun\nCheeseburger on Bun\nChicken Patty\nSpicy Chicken Sandwich\nHomemade Cheese Pizza\nHomemade Sausage Pizza
-END:VEVENT
-BEGIN:VEVENT
 UID:5-12-pi-middle-high-school-2026-03-18@pineisland
-DTSTAMP:20260317T215619Z
+DTSTAMP:20260318T215049Z
 DTSTART;VALUE=DATE:20260318
 SUMMARY:Hamburger on Bun
 DESCRIPTION:Full menu:\nPulled Pork on Flatbread\nBBQ Chicken Sandwich\nVegetable Selection\nFruit Selection\n1% White milk\nChocolate Milk\nHamburger on Bun\nCheeseburger on Bun\nChicken Patty\nSpicy Chicken Sandwich
 END:VEVENT
 BEGIN:VEVENT
 UID:5-12-pi-middle-high-school-2026-03-19@pineisland
-DTSTAMP:20260317T215619Z
+DTSTAMP:20260318T215049Z
 DTSTART;VALUE=DATE:20260319
 SUMMARY:BBQ Riblet on Bun
 DESCRIPTION:Full menu:\nBBQ Riblet on Bun\nVegetable Selection\nFruit Selection\n1% White milk\nChocolate Milk\nHamburger on Bun\nCheeseburger on Bun\nChicken Patty\nSpicy Chicken Sandwich\nCheesy Garlic Bread
 END:VEVENT
 BEGIN:VEVENT
 UID:5-12-pi-middle-high-school-2026-03-20@pineisland
-DTSTAMP:20260317T215619Z
+DTSTAMP:20260318T215049Z
 DTSTART;VALUE=DATE:20260320
 SUMMARY:Corn Dog
 DESCRIPTION:Full menu:\nPB&J Uncrustable\nCorn Dog\nFruit Selection\n1% White milk\nChocolate Milk
 END:VEVENT
 BEGIN:VEVENT
 UID:5-12-pi-middle-high-school-2026-03-30@pineisland
-DTSTAMP:20260317T215619Z
+DTSTAMP:20260318T215049Z
 DTSTART;VALUE=DATE:20260330
 SUMMARY:WG Pretzel with cheese
 DESCRIPTION:Full menu:\nWG Pretzel with cheese\nchili\nVegetable Selection\nFruit Selection\n1% White milk\nChocolate Milk\nHamburger on Bun\nCheeseburger on Bun\nChicken Patty\nSpicy Chicken Sandwich
 END:VEVENT
 BEGIN:VEVENT
 UID:5-12-pi-middle-high-school-2026-03-31@pineisland
-DTSTAMP:20260317T215619Z
+DTSTAMP:20260318T215049Z
 DTSTART;VALUE=DATE:20260331
 SUMMARY:Beef Taco
 DESCRIPTION:Full menu:\nBeef Taco\nChicken Fajita\nVegetable Selection\nFruit Selection\n1% White milk\nChocolate Milk\nHamburger on Bun\nCheeseburger on Bun\nChicken Patty\nSpicy Chicken Sandwich
