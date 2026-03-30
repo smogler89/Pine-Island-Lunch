@@ -7,16 +7,23 @@ X-WR-CALNAME:5-12 Grades Lunch Menu
 X-WR-CALDESC:Lunch menus for 5-12 Grades.
 BEGIN:VEVENT
 UID:5-12-pi-middle-high-school-2026-03-30@pineisland
-DTSTAMP:20260329T202633Z
+DTSTAMP:20260330T204012Z
 DTSTART;VALUE=DATE:20260330
-SUMMARY:WG Pretzel with cheese
-DESCRIPTION:Full menu:\nWG Pretzel with cheese\nchili\nVegetable Selection\nFruit Selection\n1% White milk\nChocolate Milk\nHamburger on Bun\nCheeseburger on Bun\nChicken Patty\nSpicy Chicken Sandwich
+SUMMARY:BBQ Riblet on Bun
+DESCRIPTION:Full menu:\nBBQ Riblet on Bun\nVegetable Selection\nFruit Selection\n1% White milk\nChocolate Milk\nHamburger on Bun\nCheeseburger on Bun\nChicken Patty\nSpicy Chicken Sandwich\nHomemade Cheese Pizza\nHomemade Sausage Pizza
 END:VEVENT
 BEGIN:VEVENT
 UID:5-12-pi-middle-high-school-2026-03-31@pineisland
-DTSTAMP:20260329T202633Z
+DTSTAMP:20260330T204012Z
 DTSTART;VALUE=DATE:20260331
-SUMMARY:Beef Taco
-DESCRIPTION:Full menu:\nBeef Taco\nChicken Fajita\nVegetable Selection\nFruit Selection\n1% White milk\nChocolate Milk\nHamburger on Bun\nCheeseburger on Bun\nChicken Patty\nSpicy Chicken Sandwich
+SUMMARY:Hamburger on Bun
+DESCRIPTION:Full menu:\nBiscuits with Chicken Gravy\nVegetable Selection\nFruit Selection\n1% White milk\nChocolate Milk\nHamburger on Bun\nCheeseburger on Bun\nChicken Patty\nSpicy Chicken Sandwich
+END:VEVENT
+BEGIN:VEVENT
+UID:5-12-pi-middle-high-school-2026-04-01@pineisland
+DTSTAMP:20260330T204012Z
+DTSTART;VALUE=DATE:20260401
+SUMMARY:Teriyaki Chicken
+DESCRIPTION:Full menu:\nTeriyaki Chicken\nOven Fried Rice\nSweet & Sour Chicken\nVegetable Selection\nFruit Selection\n1% White milk\nChocolate Milk\nHamburger on Bun\nCheeseburger on Bun\nChicken Patty\nSpicy Chicken Sandwich
 END:VEVENT
 END:VCALENDAR
