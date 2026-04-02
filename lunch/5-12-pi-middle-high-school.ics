@@ -6,10 +6,17 @@ METHOD:PUBLISH
 X-WR-CALNAME:5-12 Grades Lunch Menu
 X-WR-CALDESC:Lunch menus for 5-12 Grades.
 BEGIN:VEVENT
-UID:5-12-pi-middle-high-school-2026-04-01@pineisland
-DTSTAMP:20260401T203923Z
-DTSTART;VALUE=DATE:20260401
-SUMMARY:Chicken Nuggets
-DESCRIPTION:Full menu:\nChicken Nuggets\nCorn Dog\nVegetable Selection\nFruit Selection\n1% White milk\nChocolate Milk\nHamburger on Bun\nCheeseburger on Bun\nChicken Patty\nSpicy Chicken Sandwich
+UID:5-12-pi-middle-high-school-2026-04-02@pineisland
+DTSTAMP:20260402T203048Z
+DTSTART;VALUE=DATE:20260402
+SUMMARY:Cheeseburger on Bun
+DESCRIPTION:Full menu:\nCheeseburger on Bun\nVegetable Selection\nFruit Selection\n1% White milk\nChocolate Milk\nHamburger on Bun\nChicken Patty\nSpicy Chicken Sandwich\nHomemade Cheese Pizza\nHomemade Sausage Pizza
+END:VEVENT
+BEGIN:VEVENT
+UID:5-12-pi-middle-high-school-2026-04-03@pineisland
+DTSTAMP:20260402T203048Z
+DTSTART;VALUE=DATE:20260403
+SUMMARY:Hamburger on Bun
+DESCRIPTION:Full menu:\nBiscuits with Chicken Gravy\nVegetable Selection\nFruit Selection\n1% White milk\nChocolate Milk\nHamburger on Bun\nCheeseburger on Bun\nChicken Patty\nSpicy Chicken Sandwich\nHomemade Cheese Pizza\nHomemade Sausage Pizza
 END:VEVENT
 END:VCALENDAR
