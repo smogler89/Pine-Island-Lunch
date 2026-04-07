@@ -6,36 +6,29 @@ METHOD:PUBLISH
 X-WR-CALNAME:5-12 Grades Lunch Menu
 X-WR-CALDESC:Lunch menus for 5-12 Grades.
 BEGIN:VEVENT
-UID:5-12-pi-middle-high-school-2026-04-06@pineisland
-DTSTAMP:20260406T203343Z
-DTSTART;VALUE=DATE:20260406
-SUMMARY:Chicken Patty
-DESCRIPTION:Full menu:\nChicken Patty\nVegetable Selection\nFruit Selection\n1% White milk\nChocolate Milk\nHamburger on Bun\nCheeseburger on Bun\nSpicy Chicken Sandwich\nHomemade Cheese Pizza\nHomemade Sausage Pizza
-END:VEVENT
-BEGIN:VEVENT
 UID:5-12-pi-middle-high-school-2026-04-07@pineisland
-DTSTAMP:20260406T203343Z
+DTSTAMP:20260407T204143Z
 DTSTART;VALUE=DATE:20260407
 SUMMARY:Pulled Pork on Bun
 DESCRIPTION:Full menu:\nBBQ Chicken Sandwich\nPulled Pork on Bun\nVegetable Selection\n1% White milk\nChocolate Milk
 END:VEVENT
 BEGIN:VEVENT
 UID:5-12-pi-middle-high-school-2026-04-08@pineisland
-DTSTAMP:20260406T203343Z
+DTSTAMP:20260407T204143Z
 DTSTART;VALUE=DATE:20260408
 SUMMARY:Lunch Menu
 DESCRIPTION:Full menu:\nHotdog on a Bun\nChili & Cheese\nVegetable Selection\nFruit Selection\n1% White milk\nChocolate Milk
 END:VEVENT
 BEGIN:VEVENT
 UID:5-12-pi-middle-high-school-2026-04-09@pineisland
-DTSTAMP:20260406T203343Z
+DTSTAMP:20260407T204143Z
 DTSTART;VALUE=DATE:20260409
 SUMMARY:Baked Potato Bar
 DESCRIPTION:Full menu:\nBaked Potato Bar\nVegetable Selection\nFruit Selection\n1% White milk\nChocolate Milk
 END:VEVENT
 BEGIN:VEVENT
 UID:5-12-pi-middle-high-school-2026-04-10@pineisland
-DTSTAMP:20260406T203343Z
+DTSTAMP:20260407T204143Z
 DTSTART;VALUE=DATE:20260410
 SUMMARY:BBQ Riblet on Bun
 DESCRIPTION:Full menu:\nBBQ Riblet on Bun\nVegetable Selection\nFruit Selection\n1% White milk\nChocolate Milk\nHamburger on Bun\nCheeseburger on Bun\nChicken Patty\nSpicy Chicken Sandwich\nHomemade Cheese Pizza\nHomemade Sausage Pizza
