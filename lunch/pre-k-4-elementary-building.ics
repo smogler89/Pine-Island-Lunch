@@ -6,150 +6,150 @@ METHOD:PUBLISH
 X-WR-CALNAME:Pre-K-4 Elementary Building Lunch Menu
 X-WR-CALDESC:Lunch menus for Pre-K-4 Elementary Building.
 BEGIN:VEVENT
-UID:pre-k-4-elementary-building-2026-04-07@pineisland
-DTSTAMP:20260407T204144Z
-DTSTART;VALUE=DATE:20260407
-SUMMARY:Lunch Menu
-DESCRIPTION:Full menu:\nHotdog on a Bun\nMuffin\nString Cheese\nTrix Yogurt\nSteamed Carrots\nVegetable Selection\nFruit Selection\n1% White milk\nChocolate Milk
-END:VEVENT
-BEGIN:VEVENT
 UID:pre-k-4-elementary-building-2026-04-08@pineisland
-DTSTAMP:20260407T204144Z
+DTSTAMP:20260408T203751Z
 DTSTART;VALUE=DATE:20260408
 SUMMARY:Sloppy Joe on Bun
 DESCRIPTION:Full menu:\nSloppy Joe on Bun\nChicken Patty\nBaked Beans\nVegetable Selection\nFruit Selection\n1% White milk\nChocolate Milk
 END:VEVENT
 BEGIN:VEVENT
 UID:pre-k-4-elementary-building-2026-04-09@pineisland
-DTSTAMP:20260407T204144Z
+DTSTAMP:20260408T203751Z
 DTSTART;VALUE=DATE:20260409
 SUMMARY:Grilled Cheese
 DESCRIPTION:Full menu:\nMeatballs over Mashed Potatoes\nGrilled Cheese\nSteamed Carrots\nVegetable Selection\nFruit Selection\n1% White milk\nChocolate Milk
 END:VEVENT
 BEGIN:VEVENT
 UID:pre-k-4-elementary-building-2026-04-10@pineisland
-DTSTAMP:20260407T204144Z
+DTSTAMP:20260408T203751Z
 DTSTART;VALUE=DATE:20260410
 SUMMARY:Lunch Menu
 DESCRIPTION:Full menu:\nPepperoni Pizza\nHam and Turkey Sub\nSteamed Corn\nVegetable Selection\nFruit Selection\n1% White milk\nChocolate Milk
 END:VEVENT
 BEGIN:VEVENT
 UID:pre-k-4-elementary-building-2026-04-13@pineisland
-DTSTAMP:20260407T204144Z
+DTSTAMP:20260408T203751Z
 DTSTART;VALUE=DATE:20260413
 SUMMARY:crispy chicken sandwich on bun
 DESCRIPTION:Full menu:\ncrispy chicken sandwich on bun\nHam and Turkey Sub\nSteamed Corn\nVegetable Selection\nFruit Selection\n1% White milk\nChocolate Milk
 END:VEVENT
 BEGIN:VEVENT
 UID:pre-k-4-elementary-building-2026-04-14@pineisland
-DTSTAMP:20260407T204144Z
+DTSTAMP:20260408T203751Z
 DTSTART;VALUE=DATE:20260414
 SUMMARY:Corn Dog
 DESCRIPTION:Full menu:\nCorn Dog\nMuffin\nString Cheese\nTrix Yogurt\nSteamed Broccoli\nVegetable Selection\nFruit Selection\n1% White milk\nChocolate Milk
 END:VEVENT
 BEGIN:VEVENT
 UID:pre-k-4-elementary-building-2026-04-15@pineisland
-DTSTAMP:20260407T204144Z
+DTSTAMP:20260408T203751Z
 DTSTART;VALUE=DATE:20260415
 SUMMARY:Cheese Quesadilla
 DESCRIPTION:Full menu:\nCheese Quesadilla\nWG Pretzel with cheese\nGreen Beans\nVegetable Selection\nFruit Selection\n1% White milk\nChocolate Milk
 END:VEVENT
 BEGIN:VEVENT
 UID:pre-k-4-elementary-building-2026-04-16@pineisland
-DTSTAMP:20260407T204144Z
+DTSTAMP:20260408T203751Z
 DTSTART;VALUE=DATE:20260416
 SUMMARY:Popcorn chicken
 DESCRIPTION:Full menu:\nPopcorn chicken\nHamburger on Bun\nMashed Potatoes\nSteamed Corn\nVegetable Selection\nFruit Selection\n1% White milk\nChocolate Milk
 END:VEVENT
 BEGIN:VEVENT
 UID:pre-k-4-elementary-building-2026-04-17@pineisland
-DTSTAMP:20260407T204144Z
+DTSTAMP:20260408T203751Z
 DTSTART;VALUE=DATE:20260417
 SUMMARY:Cheesy Garlic Bread
 DESCRIPTION:Full menu:\nCheesy Garlic Bread\nMarinara\nMuffin\nString Cheese\nTrix Yogurt\nSteamed Carrots\nVegetable Selection\nFruit Selection\n1% White milk\nChocolate Milk
 END:VEVENT
 BEGIN:VEVENT
 UID:pre-k-4-elementary-building-2026-04-20@pineisland
-DTSTAMP:20260407T204144Z
+DTSTAMP:20260408T203751Z
 DTSTART;VALUE=DATE:20260420
 SUMMARY:BBQ Riblet on Bun
 DESCRIPTION:Full menu:\nMac and Cheese\nBBQ Riblet on Bun\nSteamed Carrots\nVegetable Selection\nFruit Selection\n1% White milk\nChocolate Milk
 END:VEVENT
 BEGIN:VEVENT
 UID:pre-k-4-elementary-building-2026-04-21@pineisland
-DTSTAMP:20260407T204144Z
+DTSTAMP:20260408T203751Z
 DTSTART;VALUE=DATE:20260421
 SUMMARY:Chicken Tenders
 DESCRIPTION:Full menu:\nChicken Tenders\nCheeseburger on Bun\nFrench Fries\nVegetable Selection\nFruit Selection\n1% White milk\nChocolate Milk
 END:VEVENT
 BEGIN:VEVENT
 UID:pre-k-4-elementary-building-2026-04-22@pineisland
-DTSTAMP:20260407T204144Z
+DTSTAMP:20260408T203751Z
 DTSTART;VALUE=DATE:20260422
 SUMMARY:Grilled Cheese
 DESCRIPTION:Full menu:\nGrilled Cheese\nTomato Soup\nHotdog on a Bun\nSteamed Corn\nVegetable Selection\nFruit Selection\n1% White milk\nChocolate Milk
 END:VEVENT
 BEGIN:VEVENT
 UID:pre-k-4-elementary-building-2026-04-23@pineisland
-DTSTAMP:20260407T204144Z
+DTSTAMP:20260408T203751Z
 DTSTART;VALUE=DATE:20260423
 SUMMARY:crispy chicken sandwich on bun
 DESCRIPTION:Full menu:\ncrispy chicken sandwich on bun\nPizzaburger on a bun\nSteamed Broccoli\nVegetable Selection\nFruit Selection\n1% White milk\nChocolate Milk
 END:VEVENT
 BEGIN:VEVENT
 UID:pre-k-4-elementary-building-2026-04-24@pineisland
-DTSTAMP:20260407T204144Z
+DTSTAMP:20260408T203751Z
 DTSTART;VALUE=DATE:20260424
 SUMMARY:Cheese Pizza
 DESCRIPTION:Full menu:\nCheese Pizza\nMuffin\nString Cheese\nTrix Yogurt\nSteamed Carrots\nVegetable Selection\nFruit Selection\n1% White milk\nChocolate Milk
 END:VEVENT
 BEGIN:VEVENT
 UID:pre-k-4-elementary-building-2026-04-27@pineisland
-DTSTAMP:20260407T204144Z
+DTSTAMP:20260408T203751Z
 DTSTART;VALUE=DATE:20260427
 SUMMARY:Cheese Bosco Sticks
 DESCRIPTION:Full menu:\nCheese Bosco Sticks\nYogurt Parfait\nGreen Peas\nVegetable Selection\nFruit Selection\n1% White milk\nChocolate Milk
 END:VEVENT
 BEGIN:VEVENT
 UID:pre-k-4-elementary-building-2026-04-28@pineisland
-DTSTAMP:20260407T204144Z
+DTSTAMP:20260408T203751Z
 DTSTART;VALUE=DATE:20260428
 SUMMARY:Chicken Tenders
 DESCRIPTION:Full menu:\nChicken Tenders\nCheeseburger on Bun\nFrench Fries\nVegetable Selection\nFruit Selection\n1% White milk\nChocolate Milk
 END:VEVENT
 BEGIN:VEVENT
 UID:pre-k-4-elementary-building-2026-04-29@pineisland
-DTSTAMP:20260407T204144Z
+DTSTAMP:20260408T203751Z
 DTSTART;VALUE=DATE:20260429
 SUMMARY:WG Pretzel with cheese
 DESCRIPTION:Full menu:\nWG Pretzel with cheese\nHotdog on a Bun\nSteamed Carrots\nFruit Selection\n1% White milk\nChocolate Milk
 END:VEVENT
 BEGIN:VEVENT
 UID:pre-k-4-elementary-building-2026-04-30@pineisland
-DTSTAMP:20260407T204144Z
+DTSTAMP:20260408T203751Z
 DTSTART;VALUE=DATE:20260430
 SUMMARY:Chicken Bacon Ranch Pasta
 DESCRIPTION:Full menu:\nChicken Bacon Ranch Pasta\nMuffin\nTrix Yogurt\nString Cheese\nGreen Beans\nFruit Selection\n1% White milk\nChocolate Milk
 END:VEVENT
 BEGIN:VEVENT
 UID:pre-k-4-elementary-building-2026-05-01@pineisland
-DTSTAMP:20260407T204144Z
+DTSTAMP:20260408T203751Z
 DTSTART;VALUE=DATE:20260501
 SUMMARY:Cheesy Garlic Bread
 DESCRIPTION:Full menu:\nCheesy Garlic Bread\nMarinara\nHam and Turkey Sub\nSteamed Corn\nFruit Selection\n1% White milk\nChocolate Milk
 END:VEVENT
 BEGIN:VEVENT
 UID:pre-k-4-elementary-building-2026-05-04@pineisland
-DTSTAMP:20260407T204144Z
+DTSTAMP:20260408T203751Z
 DTSTART;VALUE=DATE:20260504
 SUMMARY:Chicken Quesadilla
 DESCRIPTION:Full menu:\nChicken Quesadilla\nYogurt Parfait\nSteamed Carrots\nVegetable Selection\nFruit Selection\n1% White milk\nChocolate Milk
 END:VEVENT
 BEGIN:VEVENT
 UID:pre-k-4-elementary-building-2026-05-05@pineisland
-DTSTAMP:20260407T204144Z
+DTSTAMP:20260408T203751Z
 DTSTART;VALUE=DATE:20260505
 SUMMARY:Crispy Chicken Nuggets
 DESCRIPTION:Full menu:\nCrispy Chicken Nuggets\nBreadstick\nMuffin\nTrix Yogurt\nString Cheese\nGreen Peas\nVegetable Selection\nFruit Selection\n1% White milk\nChocolate Milk
+END:VEVENT
+BEGIN:VEVENT
+UID:pre-k-4-elementary-building-2026-05-06@pineisland
+DTSTAMP:20260408T203751Z
+DTSTART;VALUE=DATE:20260506
+SUMMARY:Sloppy Joe on Bun
+DESCRIPTION:Full menu:\nSloppy Joe on Bun\nHam and Turkey Sub\nBaked Beans\nVegetable Selection\nFruit Selection\n1% White milk\nChocolate Milk
 END:VEVENT
 END:VCALENDAR
