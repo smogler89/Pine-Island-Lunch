@@ -6,148 +6,141 @@ METHOD:PUBLISH
 X-WR-CALNAME:5-12 Grades Breakfast Menu
 X-WR-CALDESC:Breakfast menus for 5-12 Grades.
 BEGIN:VEVENT
-UID:5-12-pi-middle-high-school-2026-04-10@pineisland
-DTSTAMP:20260410T203037Z
-DTSTART;VALUE=DATE:20260410
-SUMMARY:Bagel w/Cream Cheese
-DESCRIPTION:Full menu:\nBagel w/Cream Cheese\nMuffin\nApple Frudel\nAssorted Cereal Selection\nDanish Variety\nFruit Selection\nFruit Juice\n1% White milk\nChocolate Milk
-END:VEVENT
-BEGIN:VEVENT
 UID:5-12-pi-middle-high-school-2026-04-13@pineisland
-DTSTAMP:20260410T203037Z
+DTSTAMP:20260411T202732Z
 DTSTART;VALUE=DATE:20260413
 SUMMARY:Bagel w/Cream Cheese
 DESCRIPTION:Full menu:\nBagel w/Cream Cheese\nApple Frudel\nMuffin\nAssorted Cereal Selection\nCinnamon Toast Crunch Soft Breakfast Bar\nDanish Variety\nFruit Selection\nFruit Juice\n1% White milk\nChocolate Milk
 END:VEVENT
 BEGIN:VEVENT
 UID:5-12-pi-middle-high-school-2026-04-14@pineisland
-DTSTAMP:20260410T203037Z
+DTSTAMP:20260411T202732Z
 DTSTART;VALUE=DATE:20260414
 SUMMARY:Bagel w/Cream Cheese
 DESCRIPTION:Full menu:\nBagel w/Cream Cheese\nApple Frudel\nMuffin\nAssorted Cereal Selection\nWG Pop Tart\nDanish Variety\nFruit Selection\nFruit Juice\n1% White milk\nChocolate Milk
 END:VEVENT
 BEGIN:VEVENT
 UID:5-12-pi-middle-high-school-2026-04-15@pineisland
-DTSTAMP:20260410T203037Z
+DTSTAMP:20260411T202732Z
 DTSTART;VALUE=DATE:20260415
 SUMMARY:Bagel w/Cream Cheese
 DESCRIPTION:Full menu:\nBagel w/Cream Cheese\nApple Frudel\nMuffin\nAssorted Cereal Selection\nDanish Variety\nFruit Selection\nFruit Juice\n1% White milk\nChocolate Milk
 END:VEVENT
 BEGIN:VEVENT
 UID:5-12-pi-middle-high-school-2026-04-16@pineisland
-DTSTAMP:20260410T203037Z
+DTSTAMP:20260411T202732Z
 DTSTART;VALUE=DATE:20260416
 SUMMARY:Bagel w/Cream Cheese
 DESCRIPTION:Full menu:\nBagel w/Cream Cheese\nApple Frudel\nMuffin\nAssorted Cereal Selection\nWG Pop Tart\nDanish Variety\nFruit Selection\nFruit Juice\n1% White milk\nChocolate Milk
 END:VEVENT
 BEGIN:VEVENT
 UID:5-12-pi-middle-high-school-2026-04-17@pineisland
-DTSTAMP:20260410T203037Z
+DTSTAMP:20260411T202732Z
 DTSTART;VALUE=DATE:20260417
 SUMMARY:Mini Waffle
 DESCRIPTION:Full menu:\nMini Waffle\nBagel w/Cream Cheese\nMuffin\nAssorted Cereal Selection\nCinnamon Toast Crunch Soft Breakfast Bar\nApple Frudel\nFruit Selection\nFruit Juice\n1% White milk\nChocolate Milk
 END:VEVENT
 BEGIN:VEVENT
 UID:5-12-pi-middle-high-school-2026-04-20@pineisland
-DTSTAMP:20260410T203037Z
+DTSTAMP:20260411T202732Z
 DTSTART;VALUE=DATE:20260420
 SUMMARY:Bagel w/Cream Cheese
 DESCRIPTION:Full menu:\nBagel w/Cream Cheese\nApple Frudel\nMuffin\nAssorted Cereal Selection\nDanish Variety\nFruit Selection\nFruit Juice\n1% White milk\nChocolate Milk
 END:VEVENT
 BEGIN:VEVENT
 UID:5-12-pi-middle-high-school-2026-04-21@pineisland
-DTSTAMP:20260410T203037Z
+DTSTAMP:20260411T202732Z
 DTSTART;VALUE=DATE:20260421
 SUMMARY:Bagel w/Cream Cheese
 DESCRIPTION:Full menu:\nBagel w/Cream Cheese\nMuffin\nAssorted Cereal Selection\nWG Pop Tart\nDanish Variety\nFruit Selection\nFruit Juice\n1% White milk\nChocolate Milk
 END:VEVENT
 BEGIN:VEVENT
 UID:5-12-pi-middle-high-school-2026-04-22@pineisland
-DTSTAMP:20260410T203037Z
+DTSTAMP:20260411T202732Z
 DTSTART;VALUE=DATE:20260422
 SUMMARY:Bagel w/Cream Cheese
 DESCRIPTION:Full menu:\nBagel w/Cream Cheese\nApple Frudel\nMuffin\nString Cheese\nAssorted Cereal Selection\nFruit Selection\nFruit Juice\n1% White milk\nChocolate Milk
 END:VEVENT
 BEGIN:VEVENT
 UID:5-12-pi-middle-high-school-2026-04-23@pineisland
-DTSTAMP:20260410T203037Z
+DTSTAMP:20260411T202732Z
 DTSTART;VALUE=DATE:20260423
 SUMMARY:Bagel w/Cream Cheese
 DESCRIPTION:Full menu:\nBagel w/Cream Cheese\nApple Frudel\nMuffin\nAssorted Cereal Selection\nWG Pop Tart\nDanish Variety\nFruit Selection\nFruit Juice\n1% White milk\nChocolate Milk
 END:VEVENT
 BEGIN:VEVENT
 UID:5-12-pi-middle-high-school-2026-04-24@pineisland
-DTSTAMP:20260410T203037Z
+DTSTAMP:20260411T202732Z
 DTSTART;VALUE=DATE:20260424
 SUMMARY:Bagel w/Cream Cheese
 DESCRIPTION:Full menu:\nMini Chocolate Donuts\nBagel w/Cream Cheese\nApple Frudel\nMuffin\nAssorted Cereal Selection\nFruit Selection\nFruit Juice\n1% White milk\nChocolate Milk
 END:VEVENT
 BEGIN:VEVENT
 UID:5-12-pi-middle-high-school-2026-04-27@pineisland
-DTSTAMP:20260410T203037Z
+DTSTAMP:20260411T202732Z
 DTSTART;VALUE=DATE:20260427
 SUMMARY:Bagel w/Cream Cheese
 DESCRIPTION:Full menu:\nBagel w/Cream Cheese\nApple Frudel\nMuffin\nCinnamon Toast Crunch Soft Breakfast Bar\nAssorted Cereal Selection\nDanish Variety\nFruit Selection\nFruit Juice\n1% White milk\nChocolate Milk
 END:VEVENT
 BEGIN:VEVENT
 UID:5-12-pi-middle-high-school-2026-04-28@pineisland
-DTSTAMP:20260410T203037Z
+DTSTAMP:20260411T202732Z
 DTSTART;VALUE=DATE:20260428
 SUMMARY:Bagel w/Cream Cheese
 DESCRIPTION:Full menu:\nBagel w/Cream Cheese\nMuffin\nAssorted Cereal Selection\nWG Pop Tart\nDanish Variety\nFruit Selection\nFruit Juice\n1% White milk\nChocolate Milk
 END:VEVENT
 BEGIN:VEVENT
 UID:5-12-pi-middle-high-school-2026-04-29@pineisland
-DTSTAMP:20260410T203037Z
+DTSTAMP:20260411T202732Z
 DTSTART;VALUE=DATE:20260429
 SUMMARY:Bagel w/Cream Cheese
 DESCRIPTION:Full menu:\nBagel w/Cream Cheese\nApple Frudel\nMuffin\nAssorted Cereal Selection\nWG Pop Tart\nMini Cinnamon Rolls\nFruit Selection\nFruit Juice\n1% White milk\nChocolate Milk
 END:VEVENT
 BEGIN:VEVENT
 UID:5-12-pi-middle-high-school-2026-04-30@pineisland
-DTSTAMP:20260410T203037Z
+DTSTAMP:20260411T202732Z
 DTSTART;VALUE=DATE:20260430
 SUMMARY:Bagel w/Cream Cheese
 DESCRIPTION:Full menu:\nBagel w/Cream Cheese\nMuffin\nAssorted Cereal Selection\nCinnamon Toast Crunch Soft Breakfast Bar\nFruit Selection\nFruit Juice\n1% White milk\nChocolate Milk
 END:VEVENT
 BEGIN:VEVENT
 UID:5-12-pi-middle-high-school-2026-05-01@pineisland
-DTSTAMP:20260410T203037Z
+DTSTAMP:20260411T202732Z
 DTSTART;VALUE=DATE:20260501
 SUMMARY:Bagel w/Cream Cheese
 DESCRIPTION:Full menu:\nBagel w/Cream Cheese\nApple Frudel\nAssorted Cereal Selection\nFruit Selection\nFruit Juice\n1% White milk\nChocolate Milk
 END:VEVENT
 BEGIN:VEVENT
 UID:5-12-pi-middle-high-school-2026-05-04@pineisland
-DTSTAMP:20260410T203037Z
+DTSTAMP:20260411T202732Z
 DTSTART;VALUE=DATE:20260504
 SUMMARY:Bagel w/Cream Cheese
 DESCRIPTION:Full menu:\nBagel w/Cream Cheese\nApple Frudel\nMuffin\nWG Pop Tart\nAssorted Cereal Selection\nDanish Variety\nFruit Selection\nFruit Juice\n1% White milk\nChocolate Milk
 END:VEVENT
 BEGIN:VEVENT
 UID:5-12-pi-middle-high-school-2026-05-05@pineisland
-DTSTAMP:20260410T203037Z
+DTSTAMP:20260411T202732Z
 DTSTART;VALUE=DATE:20260505
 SUMMARY:Bagel w/Cream Cheese
 DESCRIPTION:Full menu:\nBagel w/Cream Cheese\nMuffin\nAssorted Cereal Selection\nCinnamon Toast Crunch Soft Breakfast Bar\nFruit Selection\nFruit Juice\n1% White milk\nChocolate Milk
 END:VEVENT
 BEGIN:VEVENT
 UID:5-12-pi-middle-high-school-2026-05-06@pineisland
-DTSTAMP:20260410T203037Z
+DTSTAMP:20260411T202732Z
 DTSTART;VALUE=DATE:20260506
 SUMMARY:Bagel w/Cream Cheese
 DESCRIPTION:Full menu:\nBagel w/Cream Cheese\nApple Frudel\nMuffin\nAssorted Cereal Selection\nWG Pop Tart\nFruit Selection\nFruit Juice\n1% White milk\nChocolate Milk
 END:VEVENT
 BEGIN:VEVENT
 UID:5-12-pi-middle-high-school-2026-05-07@pineisland
-DTSTAMP:20260410T203037Z
+DTSTAMP:20260411T202732Z
 DTSTART;VALUE=DATE:20260507
 SUMMARY:Bagel w/Cream Cheese
 DESCRIPTION:Full menu:\nBagel w/Cream Cheese\nMuffin\nAssorted Cereal Selection\nCinnamon Toast Crunch Soft Breakfast Bar\nDanish Variety\nFruit Selection\nFruit Juice\n1% White milk\nChocolate Milk
 END:VEVENT
 BEGIN:VEVENT
 UID:5-12-pi-middle-high-school-2026-05-08@pineisland
-DTSTAMP:20260410T203037Z
+DTSTAMP:20260411T202732Z
 DTSTART;VALUE=DATE:20260508
 SUMMARY:Bagel w/Cream Cheese
 DESCRIPTION:Full menu:\nBagel w/Cream Cheese\nMuffin\nApple Frudel\nAssorted Cereal Selection\nDanish Variety\nFruit Selection\nFruit Juice\n1% White milk\nChocolate Milk
