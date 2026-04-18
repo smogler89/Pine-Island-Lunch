@@ -5,11 +5,4 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:5-12 Grades Lunch Menu
 X-WR-CALDESC:Lunch menus for 5-12 Grades.
-BEGIN:VEVENT
-UID:5-12-pi-middle-high-school-2026-04-17@pineisland
-DTSTAMP:20260417T203958Z
-DTSTART;VALUE=DATE:20260417
-SUMMARY:Corn Dog
-DESCRIPTION:Full menu:\nCorn Dog\nVegetable Selection\nFruit Selection\n1% White milk\nChocolate Milk\nHamburger on Bun\nCheeseburger on Bun\nChicken Patty\nSpicy Chicken Sandwich
-END:VEVENT
 END:VCALENDAR
