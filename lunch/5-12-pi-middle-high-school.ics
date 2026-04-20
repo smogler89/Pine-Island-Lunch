@@ -5,4 +5,18 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:5-12 Grades Lunch Menu
 X-WR-CALDESC:Lunch menus for 5-12 Grades.
+BEGIN:VEVENT
+UID:5-12-pi-middle-high-school-2026-04-20@pineisland
+DTSTAMP:20260420T204040Z
+DTSTART;VALUE=DATE:20260420
+SUMMARY:Chicken Alfredo w/a Twist
+DESCRIPTION:Full menu:\nChicken Alfredo w/a Twist\nVegetable Selection\nFruit Selection\n1% White milk\nChocolate Milk\nHamburger on Bun\nCheeseburger on Bun\nChicken Patty\nSpicy Chicken Sandwich
+END:VEVENT
+BEGIN:VEVENT
+UID:5-12-pi-middle-high-school-2026-04-21@pineisland
+DTSTAMP:20260420T204040Z
+DTSTART;VALUE=DATE:20260421
+SUMMARY:Hamburger on Bun
+DESCRIPTION:Full menu:\nVegetable Selection\nFruit Selection\n1% White milk\nChocolate Milk\nHamburger on Bun\nCheeseburger on Bun\nChicken Patty\nSpicy Chicken Sandwich
+END:VEVENT
 END:VCALENDAR
