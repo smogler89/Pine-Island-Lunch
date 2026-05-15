@@ -6,50 +6,43 @@ METHOD:PUBLISH
 X-WR-CALNAME:5-12 Grades Lunch Menu
 X-WR-CALDESC:Lunch menus for 5-12 Grades.
 BEGIN:VEVENT
-UID:5-12-pi-middle-high-school-2026-05-14@pineisland
-DTSTAMP:20260514T210527Z
-DTSTART;VALUE=DATE:20260514
-SUMMARY:Chicken Quesadilla
-DESCRIPTION:Full menu:\nChicken Quesadilla\nCheese Quesadilla\nVegetable Selection\nFruit Selection\n1% White milk\nChocolate Milk\nHamburger on Bun\nCheeseburger on Bun\nChicken Patty\nSpicy Chicken Sandwich
-END:VEVENT
-BEGIN:VEVENT
 UID:5-12-pi-middle-high-school-2026-05-15@pineisland
-DTSTAMP:20260514T210527Z
+DTSTAMP:20260515T205615Z
 DTSTART;VALUE=DATE:20260515
 SUMMARY:Hamburger on Bun
 DESCRIPTION:Full menu:\nBacon Cheese Burger on a Bun\nVegetable Selection\nFruit Selection\n1% White milk\nChocolate Milk\nHamburger on Bun\nCheeseburger on Bun\nChicken Patty\nSpicy Chicken Sandwich
 END:VEVENT
 BEGIN:VEVENT
 UID:5-12-pi-middle-high-school-2026-05-18@pineisland
-DTSTAMP:20260514T210527Z
+DTSTAMP:20260515T205615Z
 DTSTART;VALUE=DATE:20260518
 SUMMARY:BBQ Riblet on Bun
 DESCRIPTION:Full menu:\nBBQ Riblet on Bun\nVegetable Selection\nFruit Selection\n1% White milk\nChocolate Milk\nHamburger on Bun\nCheeseburger on Bun\nChicken Patty\nSpicy Chicken Sandwich\nHomemade Cheese Pizza\nHomemade Sausage Pizza
 END:VEVENT
 BEGIN:VEVENT
 UID:5-12-pi-middle-high-school-2026-05-19@pineisland
-DTSTAMP:20260514T210527Z
+DTSTAMP:20260515T205615Z
 DTSTART;VALUE=DATE:20260519
 SUMMARY:Pulled Pork on Bun
 DESCRIPTION:Full menu:\nBBQ Chicken Sandwich\nPulled Pork on Bun\nVegetable Selection\nFruit Selection\n1% White milk\nChocolate Milk\nHamburger on Bun\nCheeseburger on Bun\nChicken Patty\nSpicy Chicken Sandwich
 END:VEVENT
 BEGIN:VEVENT
 UID:5-12-pi-middle-high-school-2026-05-20@pineisland
-DTSTAMP:20260514T210527Z
+DTSTAMP:20260515T205615Z
 DTSTART;VALUE=DATE:20260520
 SUMMARY:Zesty Meatball Sub
 DESCRIPTION:Full menu:\nZesty Meatball Sub\nVegetable Selection\nFruit Selection\n1% White milk\nChocolate Milk\nHamburger on Bun\nCheeseburger on Bun\nChicken Patty\nSpicy Chicken Sandwich
 END:VEVENT
 BEGIN:VEVENT
 UID:5-12-pi-middle-high-school-2026-05-21@pineisland
-DTSTAMP:20260514T210527Z
+DTSTAMP:20260515T205615Z
 DTSTART;VALUE=DATE:20260521
 SUMMARY:Chicken Nuggets
 DESCRIPTION:Full menu:\nChicken Nuggets\nFrench Fries\nVegetable Selection\nFruit Selection\n1% White milk\nChocolate Milk\nHamburger on Bun\nCheeseburger on Bun\nChicken Patty\nSpicy Chicken Sandwich
 END:VEVENT
 BEGIN:VEVENT
 UID:5-12-pi-middle-high-school-2026-05-25@pineisland
-DTSTAMP:20260514T210527Z
+DTSTAMP:20260515T205615Z
 DTSTART;VALUE=DATE:20260525
 SUMMARY:Lunch Menu
 DESCRIPTION:Full menu:\nNO SCHOOL
