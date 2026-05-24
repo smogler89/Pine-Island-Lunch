@@ -7,35 +7,35 @@ X-WR-CALNAME:Pre-K-4 Elementary Building Breakfast Menu
 X-WR-CALDESC:Breakfast menus for Pre-K-4 Elementary Building.
 BEGIN:VEVENT
 UID:pre-k-4-elementary-building-2026-05-25@pineisland
-DTSTAMP:20260523T204306Z
+DTSTAMP:20260524T204934Z
 DTSTART;VALUE=DATE:20260525
 SUMMARY:Breakfast Menu
 DESCRIPTION:Full menu:\nNO SCHOOL
 END:VEVENT
 BEGIN:VEVENT
 UID:pre-k-4-elementary-building-2026-05-26@pineisland
-DTSTAMP:20260523T204306Z
+DTSTAMP:20260524T204934Z
 DTSTART;VALUE=DATE:20260526
 SUMMARY:Assorted Cereal Selection
 DESCRIPTION:Full menu:\nPancakes and Sausage Patty\nAssorted Cereal Selection\nFruit Selection\n1% White milk\nChocolate Milk
 END:VEVENT
 BEGIN:VEVENT
 UID:pre-k-4-elementary-building-2026-05-27@pineisland
-DTSTAMP:20260523T204306Z
+DTSTAMP:20260524T204934Z
 DTSTART;VALUE=DATE:20260527
 SUMMARY:Donut with Cheese Stick
 DESCRIPTION:Full menu:\nDonut with Cheese Stick\nAssorted Cereal Selection\nFruit Selection\nFruit Juice\n1% White milk\nChocolate Milk
 END:VEVENT
 BEGIN:VEVENT
 UID:pre-k-4-elementary-building-2026-05-28@pineisland
-DTSTAMP:20260523T204306Z
+DTSTAMP:20260524T204934Z
 DTSTART;VALUE=DATE:20260528
 SUMMARY:Assorted Cereal Selection
 DESCRIPTION:Full menu:\nApple Frudel\nAssorted Cereal Selection\nFruit Selection\n1% White milk\nChocolate Milk
 END:VEVENT
 BEGIN:VEVENT
 UID:pre-k-4-elementary-building-2026-05-29@pineisland
-DTSTAMP:20260523T204306Z
+DTSTAMP:20260524T204934Z
 DTSTART;VALUE=DATE:20260529
 SUMMARY:Assorted Cereal Selection
 DESCRIPTION:Full menu:\nMini Cinnamon Rolls\nAssorted Cereal Selection\nFruit Selection\nFruit Juice\n1% White milk\nChocolate Milk

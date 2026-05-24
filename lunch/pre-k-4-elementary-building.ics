@@ -7,35 +7,35 @@ X-WR-CALNAME:Pre-K-4 Elementary Building Lunch Menu
 X-WR-CALDESC:Lunch menus for Pre-K-4 Elementary Building.
 BEGIN:VEVENT
 UID:pre-k-4-elementary-building-2026-05-25@pineisland
-DTSTAMP:20260523T204300Z
+DTSTAMP:20260524T204931Z
 DTSTART;VALUE=DATE:20260525
 SUMMARY:Lunch Menu
 DESCRIPTION:Full menu:\nNO SCHOOL
 END:VEVENT
 BEGIN:VEVENT
 UID:pre-k-4-elementary-building-2026-05-26@pineisland
-DTSTAMP:20260523T204300Z
+DTSTAMP:20260524T204931Z
 DTSTART;VALUE=DATE:20260526
 SUMMARY:Chicken Patty
 DESCRIPTION:Full menu:\nChicken Patty\nHam and Turkey Sub\nVegetable Selection\nFruit Selection\n1% White milk\nChocolate Milk
 END:VEVENT
 BEGIN:VEVENT
 UID:pre-k-4-elementary-building-2026-05-27@pineisland
-DTSTAMP:20260523T204300Z
+DTSTAMP:20260524T204931Z
 DTSTART;VALUE=DATE:20260527
 SUMMARY:BBQ Riblet on Bun
 DESCRIPTION:Full menu:\nBBQ Riblet on Bun\nCheesy Garlic Bread\nVegetable Selection\nFruit Selection\n1% White milk\nChocolate Milk
 END:VEVENT
 BEGIN:VEVENT
 UID:pre-k-4-elementary-building-2026-05-28@pineisland
-DTSTAMP:20260523T204300Z
+DTSTAMP:20260524T204931Z
 DTSTART;VALUE=DATE:20260528
 SUMMARY:Cheeseburger on Bun
 DESCRIPTION:Full menu:\nCheeseburger on Bun\nMuffin\nTrix Yogurt\nString Cheese\nVegetable Selection\nFruit Selection\n1% White milk\nChocolate Milk
 END:VEVENT
 BEGIN:VEVENT
 UID:pre-k-4-elementary-building-2026-05-29@pineisland
-DTSTAMP:20260523T204300Z
+DTSTAMP:20260524T204931Z
 DTSTART;VALUE=DATE:20260529
 SUMMARY:Lunch Menu
 DESCRIPTION:Full menu:\nHotdog on a Bun\nVegetable Selection\nFruit Selection\n1% White milk\nChocolate Milk
