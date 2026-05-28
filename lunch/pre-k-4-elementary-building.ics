@@ -6,22 +6,15 @@ METHOD:PUBLISH
 X-WR-CALNAME:Pre-K-4 Elementary Building Lunch Menu
 X-WR-CALDESC:Lunch menus for Pre-K-4 Elementary Building.
 BEGIN:VEVENT
-UID:pre-k-4-elementary-building-2026-05-27@pineisland
-DTSTAMP:20260527T214954Z
-DTSTART;VALUE=DATE:20260527
-SUMMARY:BBQ Riblet on Bun
-DESCRIPTION:Full menu:\nBBQ Riblet on Bun\nCheesy Garlic Bread\nVegetable Selection\nFruit Selection\n1% White milk\nChocolate Milk
-END:VEVENT
-BEGIN:VEVENT
 UID:pre-k-4-elementary-building-2026-05-28@pineisland
-DTSTAMP:20260527T214954Z
+DTSTAMP:20260528T215154Z
 DTSTART;VALUE=DATE:20260528
 SUMMARY:Cheeseburger on Bun
 DESCRIPTION:Full menu:\nCheeseburger on Bun\nMuffin\nTrix Yogurt\nString Cheese\nVegetable Selection\nFruit Selection\n1% White milk\nChocolate Milk
 END:VEVENT
 BEGIN:VEVENT
 UID:pre-k-4-elementary-building-2026-05-29@pineisland
-DTSTAMP:20260527T214954Z
+DTSTAMP:20260528T215154Z
 DTSTART;VALUE=DATE:20260529
 SUMMARY:Lunch Menu
 DESCRIPTION:Full menu:\nHotdog on a Bun\nVegetable Selection\nFruit Selection\n1% White milk\nChocolate Milk
