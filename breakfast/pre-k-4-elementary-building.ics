@@ -6,15 +6,8 @@ METHOD:PUBLISH
 X-WR-CALNAME:Pre-K-4 Elementary Building Breakfast Menu
 X-WR-CALDESC:Breakfast menus for Pre-K-4 Elementary Building.
 BEGIN:VEVENT
-UID:pre-k-4-elementary-building-2026-05-28@pineisland
-DTSTAMP:20260528T215155Z
-DTSTART;VALUE=DATE:20260528
-SUMMARY:Assorted Cereal Selection
-DESCRIPTION:Full menu:\nApple Frudel\nAssorted Cereal Selection\nFruit Selection\n1% White milk\nChocolate Milk
-END:VEVENT
-BEGIN:VEVENT
 UID:pre-k-4-elementary-building-2026-05-29@pineisland
-DTSTAMP:20260528T215155Z
+DTSTAMP:20260529T214946Z
 DTSTART;VALUE=DATE:20260529
 SUMMARY:Assorted Cereal Selection
 DESCRIPTION:Full menu:\nMini Cinnamon Rolls\nAssorted Cereal Selection\nFruit Selection\nFruit Juice\n1% White milk\nChocolate Milk
