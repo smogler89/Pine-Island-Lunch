@@ -5,11 +5,4 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Pre-K-4 Elementary Building Lunch Menu
 X-WR-CALDESC:Lunch menus for Pre-K-4 Elementary Building.
-BEGIN:VEVENT
-UID:pre-k-4-elementary-building-2026-05-29@pineisland
-DTSTAMP:20260529T214944Z
-DTSTART;VALUE=DATE:20260529
-SUMMARY:Lunch Menu
-DESCRIPTION:Full menu:\nHotdog on a Bun\nVegetable Selection\nFruit Selection\n1% White milk\nChocolate Milk
-END:VEVENT
 END:VCALENDAR
