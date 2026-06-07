@@ -6,43 +6,36 @@ METHOD:PUBLISH
 X-WR-CALNAME:5-12 Grades Breakfast Menu
 X-WR-CALDESC:Breakfast menus for 5-12 Grades.
 BEGIN:VEVENT
-UID:5-12-pi-middle-high-school-2026-06-05@pineisland
-DTSTAMP:20260605T212116Z
-DTSTART;VALUE=DATE:20260605
-SUMMARY:Bagel w/Cream Cheese
-DESCRIPTION:Full menu:\nBagel w/Cream Cheese\nMuffin\nApple Frudel\nAssorted Cereal Selection\nDanish Variety\nFruit Selection\nFruit Juice\n1% White milk\nChocolate Milk
-END:VEVENT
-BEGIN:VEVENT
 UID:5-12-pi-middle-high-school-2026-06-08@pineisland
-DTSTAMP:20260605T212116Z
+DTSTAMP:20260607T210635Z
 DTSTART;VALUE=DATE:20260608
 SUMMARY:Bagel w/Cream Cheese
 DESCRIPTION:Full menu:\nBagel w/Cream Cheese\nApple Frudel\nMuffin\nAssorted Cereal Selection\nCinnamon Toast Crunch Soft Breakfast Bar\nDanish Variety\nFruit Selection\nFruit Juice\n1% White milk\nChocolate Milk
 END:VEVENT
 BEGIN:VEVENT
 UID:5-12-pi-middle-high-school-2026-06-09@pineisland
-DTSTAMP:20260605T212116Z
+DTSTAMP:20260607T210635Z
 DTSTART;VALUE=DATE:20260609
 SUMMARY:Bagel w/Cream Cheese
 DESCRIPTION:Full menu:\nBagel w/Cream Cheese\nApple Frudel\nMuffin\nAssorted Cereal Selection\nWG Pop Tart\nDanish Variety\nFruit Selection\nFruit Juice\n1% White milk\nChocolate Milk
 END:VEVENT
 BEGIN:VEVENT
 UID:5-12-pi-middle-high-school-2026-06-10@pineisland
-DTSTAMP:20260605T212116Z
+DTSTAMP:20260607T210635Z
 DTSTART;VALUE=DATE:20260610
 SUMMARY:Bagel w/Cream Cheese
 DESCRIPTION:Full menu:\nBagel w/Cream Cheese\nApple Frudel\nMuffin\nAssorted Cereal Selection\nDanish Variety\nFruit Selection\nFruit Juice\n1% White milk\nChocolate Milk
 END:VEVENT
 BEGIN:VEVENT
 UID:5-12-pi-middle-high-school-2026-06-11@pineisland
-DTSTAMP:20260605T212116Z
+DTSTAMP:20260607T210635Z
 DTSTART;VALUE=DATE:20260611
 SUMMARY:Bagel w/Cream Cheese
 DESCRIPTION:Full menu:\nBagel w/Cream Cheese\nApple Frudel\nMuffin\nAssorted Cereal Selection\nWG Pop Tart\nDanish Variety\nFruit Selection\nFruit Juice\n1% White milk\nChocolate Milk
 END:VEVENT
 BEGIN:VEVENT
 UID:5-12-pi-middle-high-school-2026-06-12@pineisland
-DTSTAMP:20260605T212116Z
+DTSTAMP:20260607T210635Z
 DTSTART;VALUE=DATE:20260612
 SUMMARY:Mini Waffle
 DESCRIPTION:Full menu:\nMini Waffle\nBagel w/Cream Cheese\nMuffin\nAssorted Cereal Selection\nCinnamon Toast Crunch Soft Breakfast Bar\nApple Frudel\nFruit Selection\nFruit Juice\n1% White milk\nChocolate Milk
