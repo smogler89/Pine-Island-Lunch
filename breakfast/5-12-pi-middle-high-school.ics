@@ -5,11 +5,4 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:5-12 Grades Breakfast Menu
 X-WR-CALDESC:Breakfast menus for 5-12 Grades.
-BEGIN:VEVENT
-UID:5-12-pi-middle-high-school-2026-06-12@pineisland
-DTSTAMP:20260612T212722Z
-DTSTART;VALUE=DATE:20260612
-SUMMARY:Mini Waffle
-DESCRIPTION:Full menu:\nMini Waffle\nBagel w/Cream Cheese\nMuffin\nAssorted Cereal Selection\nCinnamon Toast Crunch Soft Breakfast Bar\nApple Frudel\nFruit Selection\nFruit Juice\n1% White milk\nChocolate Milk
-END:VEVENT
 END:VCALENDAR
